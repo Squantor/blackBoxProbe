@@ -1,4 +1,4 @@
-update=vr 30 mrt 2018 07:08:44 CEST
+update=vr 30 mrt 2018 07:21:46 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../squantorPcbComponentLibrary/kicad
@@ -64,5 +66,5 @@ LibName34=/home/abilos/projects/public/squantorPcbComponentLibrary/SquantorConne
 LibName35=/home/abilos/projects/public/squantorPcbComponentLibrary/SquantorLabels
 LibName36=/home/abilos/projects/public/squantorPcbComponentLibrary/SquantorPCBOutline
 LibName37=/home/abilos/projects/public/squantorPcbComponentLibrary/SquantorProto
-[general]
-version=1
+LibName38=/home/abilos/projects/public/squantorPcbComponentLibrary/SquantorUsb
+LibName39=/home/abilos/projects/public/squantorPcbComponentLibrary/SquantorMicrochip
