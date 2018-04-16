@@ -1,4 +1,4 @@
-update=di 03 apr 2018 06:31:51 CEST
+update=ma 16 apr 2018 22:27:18 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName37=/home/abilos/projects/public/squantorPcbLibrary/SquantorProto
 LibName38=/home/abilos/projects/public/squantorPcbLibrary/SquantorUsb
 LibName39=/home/abilos/projects/public/squantorPcbLibrary/SquantorMicrochip
 LibName40=/home/abilos/projects/public/squantorPcbLibrary/SquantorST
+LibName41=SquantorGenericAnalog
