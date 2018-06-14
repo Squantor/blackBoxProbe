@@ -1,4 +1,4 @@
-update=do 14 jun 2018 11:03:51 CEST
+update=do 14 jun 2018 11:33:35 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName40=/home/abilos/projects/public/squantorPcbLibrary/SquantorST
 LibName41=SquantorGenericAnalog
 LibName42=SquantorNxp
 LibName43=SquantorLogic
+LibName44=SquantorDevice
