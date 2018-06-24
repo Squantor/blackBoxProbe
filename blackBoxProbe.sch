@@ -847,28 +847,6 @@ F 3 "" H 3550 5850 50  0001 C CNN
 	1    3550 5850
 	0    -1   -1   0   
 $EndComp
-$Comp
-L 2pin_tact_switch S2
-U 1 1 5B2168E0
-P 3600 6200
-F 0 "S2" H 3600 6450 60  0000 C CNN
-F 1 "2pin_tact_switch" H 3600 6100 60  0000 C CNN
-F 2 "SquantorButtons:DTSM3" H 3600 6200 60  0001 C CNN
-F 3 "" H 3600 6200 60  0001 C CNN
-	1    3600 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR045
-U 1 1 5B2169F4
-P 3300 6200
-F 0 "#PWR045" H 3300 5950 50  0001 C CNN
-F 1 "GND" H 3300 6050 50  0000 C CNN
-F 2 "" H 3300 6200 50  0001 C CNN
-F 3 "" H 3300 6200 50  0001 C CNN
-	1    3300 6200
-	0    1    1    0   
-$EndComp
 Text Label 8950 5800 2    60   ~ 0
 MCU_TCK
 Text Label 8950 5700 2    60   ~ 0
@@ -1925,13 +1903,6 @@ Wire Wire Line
 Connection ~ 2500 2400
 Wire Wire Line
 	3400 5850 3350 5850
-Wire Wire Line
-	3900 5850 3900 6200
-Wire Wire Line
-	3900 6200 3850 6200
-Connection ~ 3900 5850
-Wire Wire Line
-	3350 6200 3300 6200
 Wire Wire Line
 	9000 5700 8950 5700
 Wire Wire Line
