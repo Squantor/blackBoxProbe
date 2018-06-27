@@ -2,7 +2,7 @@
 
   (general
     (links 183)
-    (no_connects 1)
+    (no_connects 0)
     (area 3.106334 144.898 63.152001 208.327001)
     (thickness 1.6)
     (drawings 10)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.127)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -85,7 +85,7 @@
       (layerselection 0x010f0_80000007)
       (usegerberextensions false)
       (usegerberattributes true)
-      (excludeedgelayer false)
+      (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
       (viasonmask false)
