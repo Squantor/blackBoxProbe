@@ -7,10 +7,13 @@ I have made this probe to have a nicer boxed version that I can use and is somew
 ## DONE
 * Schematic entry, copied from [black magic probe V2.1](https://github.com/blacksphere/blackmagic/wiki/files/bmpm_v2_1c_schematic.pdf).
 * Layout completed, board outline matches a [Hammond 1551R](http://www.hammondmfg.com/pdf/1551R.pdf)
+* Waiting for production by JLCPCB V20180627
+* Tests and fixes, few minor problems and one major one: level shifter component was incorrect! patching would be such a chore, just going for a respin of the board.
 ## In progress
-* Waiting for production by JLCPCB
+* Fixing component/layout, wrong level shifter, huge pads of the dualtransistors
 ## TODO
-* testing + fixes
+* Waiting for production by JLCPCB
+* Tests and fixes
 * pictures
 * writeup
 * Smaller boxed version that fits a [hammond 1551G](http://www.hammondmfg.com/pdf/1551G.pdf)
