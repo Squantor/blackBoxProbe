@@ -1297,7 +1297,7 @@ F 3 "" H 5050 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5450 1600 0    60   ~ 0
-PROBE_VDD
+PROBE_E_VDD
 $Comp
 L JTAG_2X05 J3
 U 1 1 5B2358DA
@@ -1354,7 +1354,7 @@ F 3 "" H 5500 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5450 2150 0    60   ~ 0
-PROBE_VDD
+PROBE_E_VDD
 $Comp
 L C C19
 U 1 1 5B236220
@@ -1400,7 +1400,7 @@ F 3 "" H 5500 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5450 2700 0    60   ~ 0
-PROBE_VDD
+PROBE_E_VDD
 $Comp
 L C C21
 U 1 1 5B236378
@@ -1446,7 +1446,7 @@ F 3 "" H 5500 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5450 3300 0    60   ~ 0
-PROBE_VDD
+PROBE_E_VDD
 $Comp
 L +3V3 #PWR065
 U 1 1 5B2370D5
