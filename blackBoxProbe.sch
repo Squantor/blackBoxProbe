@@ -1938,9 +1938,9 @@ Wire Wire Line
 Wire Wire Line
 	5950 6250 5850 6250
 Wire Wire Line
-	5850 6450 5850 6250
+	5850 6250 5850 6450
 Wire Wire Line
-	5350 6450 5850 6450
+	5850 6450 5350 6450
 Wire Wire Line
 	5550 6450 5550 6350
 Wire Wire Line
@@ -2183,7 +2183,7 @@ Wire Wire Line
 	10550 750  10550 1100
 Connection ~ 10550 1100
 Text Label 9000 3000 2    60   ~ 0
-PROBE_E_VDD
+PROBE_VDD
 Text Label 9000 3400 2    60   ~ 0
 PROBE_E_RST
 Text Label 8700 3650 2    60   ~ 0
