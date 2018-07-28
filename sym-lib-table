@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name blackBoxProbe-rescue)(type Legacy)(uri ${KIPRJMOD}/blackBoxProbe-rescue.lib)(options "")(descr ""))
   (lib (name SquantorButtons)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorButtons.lib)(options "")(descr ""))
   (lib (name SquantorConnectors)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorConnectors.lib)(options "")(descr ""))
   (lib (name SquantorLabels)(type Legacy)(uri ${KICAD_USER_SYMBOL_DIR}/SquantorLabels.lib)(options "")(descr ""))
