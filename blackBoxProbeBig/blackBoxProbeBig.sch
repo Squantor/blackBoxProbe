@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:blackBoxProbeBig-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -152,7 +151,7 @@ U 1 1 5ABDDB30
 P 1200 1250
 F 0 "U1" H 1200 1500 60  0000 C CNN
 F 1 "MCP1702-MB" H 1200 1000 60  0000 C CNN
-F 2 "SquantorMicrochip:MB-(SOT-89)" H 1200 1250 60  0001 C CNN
+F 2 "SquantorIC:SOT89-ViaTab-Microchip-MB" H 1200 1250 60  0001 C CNN
 F 3 "" H 1200 1250 60  0001 C CNN
 	1    1200 1250
 	0    -1   -1   0   
