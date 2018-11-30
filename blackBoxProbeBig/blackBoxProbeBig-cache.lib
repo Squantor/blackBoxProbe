@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x04
+# Connector_Generic_Conn_01x04
 #
-DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -24,11 +24,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -42,11 +42,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Crystal
+# Device_Crystal
 #
-DEF Device:Crystal Y 0 40 N N 1 F N
+DEF Device_Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Device:Crystal" 0 -150 50 H V C CNN
+F1 "Device_Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -63,11 +63,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -86,11 +86,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -103,11 +103,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SquantorButtons:2pin_tact_switch
+# SquantorButtons_2pin_tact_switch
 #
-DEF SquantorButtons:2pin_tact_switch S 0 40 Y Y 1 F N
+DEF SquantorButtons_2pin_tact_switch S 0 40 Y Y 1 F N
 F0 "S" 0 250 60 H V C CNN
-F1 "SquantorButtons:2pin_tact_switch" 0 -100 60 H V C CNN
+F1 "SquantorButtons_2pin_tact_switch" 0 -100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -120,11 +120,11 @@ X 2 2 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SquantorConnectors:JTAG_2X05
+# SquantorConnectors_JTAG_2X05
 #
-DEF SquantorConnectors:JTAG_2X05 J 0 40 Y Y 1 F N
+DEF SquantorConnectors_JTAG_2X05 J 0 40 Y Y 1 F N
 F0 "J" 0 350 60 H V C CNN
-F1 "SquantorConnectors:JTAG_2X05" 0 -350 60 H V C CNN
+F1 "SquantorConnectors_JTAG_2X05" 0 -350 60 H V C CNN
 F2 "" 0 150 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
 DRAW
@@ -142,11 +142,11 @@ X GNDDET 9 500 -200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# SquantorDevice:Q_NMOS_DUAL
+# SquantorDevice_Q_NMOS_DUAL
 #
-DEF SquantorDevice:Q_NMOS_DUAL Q 0 0 Y N 1 F N
+DEF SquantorDevice_Q_NMOS_DUAL Q 0 0 Y N 1 F N
 F0 "Q" 200 150 50 H V L CNN
-F1 "SquantorDevice:Q_NMOS_DUAL" 200 -150 50 H V L CNN
+F1 "SquantorDevice_Q_NMOS_DUAL" 200 -150 50 H V L CNN
 F2 "" 50 100 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -197,11 +197,11 @@ X D1 6 -50 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SquantorDevice:Q_PMOS_DUAL
+# SquantorDevice_Q_PMOS_DUAL
 #
-DEF SquantorDevice:Q_PMOS_DUAL Q 0 0 Y N 1 F N
+DEF SquantorDevice_Q_PMOS_DUAL Q 0 0 Y N 1 F N
 F0 "Q" 250 100 50 H V L CNN
-F1 "SquantorDevice:Q_PMOS_DUAL" 250 -100 50 H V L CNN
+F1 "SquantorDevice_Q_PMOS_DUAL" 250 -100 50 H V L CNN
 F2 "" 50 100 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -252,11 +252,11 @@ X D1 6 -50 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SquantorLabels:OHWLOGO
+# SquantorLabels_OHWLOGO
 #
-DEF SquantorLabels:OHWLOGO N 0 40 Y Y 1 F N
+DEF SquantorLabels_OHWLOGO N 0 40 Y Y 1 F N
 F0 "N" 0 150 60 H V C CNN
-F1 "SquantorLabels:OHWLOGO" 0 -150 60 H V C CNN
+F1 "SquantorLabels_OHWLOGO" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -265,11 +265,11 @@ C 0 0 100 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# SquantorLabels:VYYYYMMDD
+# SquantorLabels_VYYYYMMDD
 #
-DEF SquantorLabels:VYYYYMMDD N 0 40 Y Y 1 F N
+DEF SquantorLabels_VYYYYMMDD N 0 40 Y Y 1 F N
 F0 "N" 0 100 60 H V C CNN
-F1 "SquantorLabels:VYYYYMMDD" 0 0 60 H V C CNN
+F1 "SquantorLabels_VYYYYMMDD" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -277,11 +277,11 @@ S 300 -50 -300 150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# SquantorLogic:74X2T45
+# SquantorLogic_74X2T45
 #
-DEF SquantorLogic:74X2T45 U 0 40 Y Y 1 F N
+DEF SquantorLogic_74X2T45 U 0 40 Y Y 1 F N
 F0 "U" 0 300 60 H V C CNN
-F1 "SquantorLogic:74X2T45" 0 -300 60 H V C CNN
+F1 "SquantorLogic_74X2T45" 0 -300 60 H V C CNN
 F2 "" 0 50 60 H I C CNN
 F3 "" 0 50 60 H I C CNN
 DRAW
@@ -297,11 +297,11 @@ X VCCB 8 350 150 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# SquantorMicrochip:MCP1702-MB
+# SquantorMicrochip_MCP1702-MB
 #
-DEF SquantorMicrochip:MCP1702-MB U 0 40 Y Y 1 F N
+DEF SquantorMicrochip_MCP1702-MB U 0 40 Y Y 1 F N
 F0 "U" 0 250 60 H V C CNN
-F1 "SquantorMicrochip:MCP1702-MB" 0 -250 60 H V C CNN
+F1 "SquantorMicrochip_MCP1702-MB" 0 -250 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -313,11 +313,11 @@ X Vin TAB 300 0 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# SquantorPCBOutline:Drill_Hole_no_metal
+# SquantorPCBOutline_Drill_Hole_no_metal
 #
-DEF SquantorPCBOutline:Drill_Hole_no_metal H 0 40 Y Y 1 F N
+DEF SquantorPCBOutline_Drill_Hole_no_metal H 0 40 Y Y 1 F N
 F0 "H" 0 -250 60 H V C CNN
-F1 "SquantorPCBOutline:Drill_Hole_no_metal" 0 250 60 H V C CNN
+F1 "SquantorPCBOutline_Drill_Hole_no_metal" 0 250 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -326,11 +326,11 @@ C 0 0 150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# SquantorST:STM32F103CBT
+# SquantorST_STM32F103CBT
 #
-DEF SquantorST:STM32F103CBT U 0 40 Y Y 3 L N
+DEF SquantorST_STM32F103CBT U 0 40 Y Y 3 L N
 F0 "U" 0 1100 60 H V C CNN
-F1 "SquantorST:STM32F103CBT" 0 -1100 60 H V C CNN
+F1 "SquantorST_STM32F103CBT" 0 -1100 60 H V C CNN
 F2 "" -1000 100 60 H I C CNN
 F3 "" -1000 100 60 H I C CNN
 DRAW
@@ -407,11 +407,11 @@ X PC15-OSC32_OUT 4 -350 -950 100 R 50 50 1 2 B
 ENDDRAW
 ENDDEF
 #
-# SquantorST:USBLC6-2
+# SquantorST_USBLC6-2
 #
-DEF SquantorST:USBLC6-2 U 0 40 Y Y 1 F N
+DEF SquantorST_USBLC6-2 U 0 40 Y Y 1 F N
 F0 "U" 0 250 60 H V C CNN
-F1 "SquantorST:USBLC6-2" 0 -250 60 H V C CNN
+F1 "SquantorST_USBLC6-2" 0 -250 60 H V C CNN
 F2 "" -150 -50 60 H I C CNN
 F3 "" -150 -50 60 H I C CNN
 DRAW
@@ -449,11 +449,11 @@ X I/O1 6 400 100 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SquantorUsb:USB-ID
+# SquantorUsb_USB-ID
 #
-DEF SquantorUsb:USB-ID J 0 40 Y Y 1 F N
+DEF SquantorUsb_USB-ID J 0 40 Y Y 1 F N
 F0 "J" -150 300 60 H V C CNN
-F1 "SquantorUsb:USB-ID" 0 -300 60 H V C CNN
+F1 "SquantorUsb_USB-ID" 0 -300 60 H V C CNN
 F2 "" 150 50 60 H I C CNN
 F3 "" 150 50 60 H I C CNN
 DRAW
@@ -467,11 +467,11 @@ X Shield S -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -483,11 +483,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -498,11 +498,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -511,11 +511,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GNDA
+# power_GNDA
 #
-DEF power:GNDA #PWR 0 0 Y Y 1 F P
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDA" 0 -150 50 H V C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -524,11 +524,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -537,11 +537,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# power:VDDA
+# power_VDDA
 #
-DEF power:VDDA #PWR 0 0 Y Y 1 F P
+DEF power_VDDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VDDA" 0 150 50 H V C CNN
+F1 "power_VDDA" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
