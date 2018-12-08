@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:blackBoxProbeSmall-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -117,8 +118,8 @@ L Device:C C1
 U 1 1 5ABDD0E1
 P 750 1250
 F 0 "C1" H 775 1350 50  0000 L CNN
-F 1 "2.2u" H 775 1150 50  0000 L CNN
-F 2 "SquantorRcl:C_0805" H 788 1100 50  0001 C CNN
+F 1 "1u" H 775 1150 50  0000 L CNN
+F 2 "SquantorRcl:C_0603" H 788 1100 50  0001 C CNN
 F 3 "" H 750 1250 50  0001 C CNN
 	1    750  1250
 	1    0    0    -1  
