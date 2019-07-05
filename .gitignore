@@ -22,3 +22,6 @@ _autosave-*
 
 # gerber stuff
 *.zip
+
+# misc caches
+fp-info-cache
