@@ -9,6 +9,7 @@
 _autosave-*
 *.tmp
 
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -25,3 +26,4 @@ _autosave-*
 
 # misc caches
 fp-info-cache
+*-cache.lib
