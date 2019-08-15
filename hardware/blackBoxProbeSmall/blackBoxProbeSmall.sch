@@ -91,17 +91,6 @@ F 3 "" H 750 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR08
-U 1 1 5ABDE3D7
-P 1200 1800
-F 0 "#PWR08" H 1200 1650 50  0001 C CNN
-F 1 "+5V" H 1200 1940 50  0000 C CNN
-F 2 "" H 1200 1800 50  0001 C CNN
-F 3 "" H 1200 1800 50  0001 C CNN
-	1    1200 1800
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5ABDEDAB
 P 1650 1250
@@ -122,28 +111,6 @@ F 2 "SquantorIC:SOT23-6-HAND" H 2350 3050 60  0001 C CNN
 F 3 "" H 2350 3050 60  0001 C CNN
 	1    2500 3100
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5AC312BD
-P 2050 3100
-F 0 "#PWR013" H 2050 2850 50  0001 C CNN
-F 1 "GND" H 2050 2950 50  0000 C CNN
-F 2 "" H 2050 3100 50  0001 C CNN
-F 3 "" H 2050 3100 50  0001 C CNN
-	1    2050 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR014
-U 1 1 5AC313B8
-P 2950 3100
-F 0 "#PWR014" H 2950 2950 50  0001 C CNN
-F 1 "+5V" H 2950 3240 50  0000 C CNN
-F 2 "" H 2950 3100 50  0001 C CNN
-F 3 "" H 2950 3100 50  0001 C CNN
-	1    2950 3100
-	0    1    1    0   
 $EndComp
 Text Label 3450 3000 0    60   ~ 0
 USB_D-
@@ -237,7 +204,7 @@ F 3 "" H 3150 4150 50  0001 C CNN
 	1    3150 4150
 	0    -1   -1   0   
 $EndComp
-Text Label 3350 5750 2    60   ~ 0
+Text Label 3850 5750 2    50   ~ 0
 MCU_RST
 $Comp
 L Device:R R7
@@ -369,17 +336,6 @@ TARGET_PWR_EN
 Text Label 5900 4450 2    60   ~ 0
 TARGET_PWR_SENSE
 $Comp
-L power:GND #PWR050
-U 1 1 5B224697
-P 8650 2650
-F 0 "#PWR050" H 8650 2400 50  0001 C CNN
-F 1 "GND" H 8650 2500 50  0000 C CNN
-F 2 "" H 8650 2650 50  0001 C CNN
-F 3 "" H 8650 2650 50  0001 C CNN
-	1    8650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C11
 U 1 1 5B225142
 P 8650 2450
@@ -389,17 +345,6 @@ F 2 "SquantorRcl:C_0402" H 8688 2300 50  0001 C CNN
 F 3 "" H 8650 2450 50  0001 C CNN
 	1    8650 2450
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR051
-U 1 1 5B225215
-P 8800 2650
-F 0 "#PWR051" H 8800 2400 50  0001 C CNN
-F 1 "GND" H 8800 2500 50  0000 C CNN
-F 2 "" H 8800 2650 50  0001 C CNN
-F 3 "" H 8800 2650 50  0001 C CNN
-	1    8800 2650
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R11
@@ -423,9 +368,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	1    8800 2050
 	1    0    0    -1  
 $EndComp
-Text Label 8950 2250 0    60   ~ 0
-TARGET_PWR_SENSE
-Text Label 8950 1800 0    60   ~ 0
+Text Label 8850 1850 0    50   ~ 0
 PROBE_VDD
 $Comp
 L SquantorConnectors:JTAG_2X05 J2
@@ -506,13 +449,13 @@ MCU_RST
 $Comp
 L Device:R R18
 U 1 1 5B22EDC3
-P 3550 5600
-F 0 "R18" V 3600 5400 50  0000 C CNN
-F 1 "47K" V 3550 5600 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 3480 5600 50  0001 C CNN
-F 3 "" H 3550 5600 50  0001 C CNN
-	1    3550 5600
-	0    -1   -1   0   
+P 3200 6050
+F 0 "R18" V 3150 6250 50  0000 C CNN
+F 1 "47K" V 3200 6050 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 3130 6050 50  0001 C CNN
+F 3 "" H 3200 6050 50  0001 C CNN
+	1    3200 6050
+	-1   0    0    1   
 $EndComp
 $Comp
 L SquantorLogic:74X2T45 U4
@@ -643,8 +586,6 @@ F 3 "" H 4950 2400 50  0001 C CNN
 $EndComp
 Text Label 5150 2400 0    60   ~ 0
 PROBE_E_VDD
-Text Label 7500 750  0    50   ~ 0
-PROBE_E_VDD
 $Comp
 L SquantorLogic:74X2T45 U5
 U 1 1 5B2385A7
@@ -656,8 +597,6 @@ F 3 "" H 7100 1650 60  0001 C CNN
 	1    7100 1600
 	1    0    0    -1  
 $EndComp
-Text Label 7500 1450 0    50   ~ 0
-PROBE_E_VDD
 $Comp
 L SquantorLogic:74X2T45 U6
 U 1 1 5B23870A
@@ -680,8 +619,6 @@ F 3 "" H 7100 3050 60  0001 C CNN
 	1    7100 3000
 	1    0    0    -1  
 $EndComp
-Text Label 7500 2850 0    50   ~ 0
-PROBE_E_VDD
 $Comp
 L Device:R R24
 U 1 1 5B239665
@@ -737,19 +674,6 @@ F 3 "" H 9300 1500 50  0001 C CNN
 	1    9300 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR071
-U 1 1 5B23AEC2
-P 10600 1300
-F 0 "#PWR071" H 10600 1050 50  0001 C CNN
-F 1 "GND" H 10600 1150 50  0000 C CNN
-F 2 "" H 10600 1300 50  0001 C CNN
-F 3 "" H 10600 1300 50  0001 C CNN
-	1    10600 1300
-	0    -1   -1   0   
-$EndComp
-Text Label 10650 1100 0    60   ~ 0
-PROBE_VDD
 Text Label 9000 1100 2    60   ~ 0
 PROBE_E_TMS
 Text Label 9000 1200 2    60   ~ 0
@@ -804,28 +728,6 @@ F 3 "" H 9050 3200 50  0001 C CNN
 	1    9050 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR075
-U 1 1 5B246A00
-P 9050 3900
-F 0 "#PWR075" H 9050 3650 50  0001 C CNN
-F 1 "GND" H 9050 3750 50  0000 C CNN
-F 2 "" H 9050 3900 50  0001 C CNN
-F 3 "" H 9050 3900 50  0001 C CNN
-	1    9050 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR076
-U 1 1 5B246AD4
-P 9200 3900
-F 0 "#PWR076" H 9200 3650 50  0001 C CNN
-F 1 "GND" H 9200 3750 50  0000 C CNN
-F 2 "" H 9200 3900 50  0001 C CNN
-F 3 "" H 9200 3900 50  0001 C CNN
-	1    9200 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 2950 1500 2950
 Wire Wire Line
@@ -850,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 3050 1800 3050
 Wire Wire Line
-	1200 1800 1200 1550
+	1200 1600 1200 1550
 Wire Wire Line
 	1300 1600 1300 1550
 Wire Wire Line
@@ -1029,10 +931,6 @@ Wire Wire Line
 	8800 2200 8800 2250
 Connection ~ 8800 2250
 Wire Wire Line
-	8800 1900 8800 1800
-Wire Wire Line
-	8800 1800 8950 1800
-Wire Wire Line
 	4400 7150 4450 7150
 Wire Wire Line
 	4400 7050 4450 7050
@@ -1061,10 +959,6 @@ Wire Wire Line
 	2800 7050 2750 7050
 Wire Wire Line
 	2750 6950 3050 6950
-Wire Wire Line
-	3350 5600 3400 5600
-Wire Wire Line
-	3700 5600 3800 5600
 Wire Wire Line
 	4800 1000 4750 1000
 Wire Wire Line
@@ -1187,8 +1081,6 @@ Wire Wire Line
 	9050 3050 9050 3000
 Wire Wire Line
 	9050 3000 9000 3000
-Wire Wire Line
-	10550 750  10550 850 
 Connection ~ 10550 1100
 Text Label 9000 3000 2    60   ~ 0
 PROBE_E_VDD
@@ -1211,18 +1103,7 @@ F 3 "" H 10350 3700 50  0001 C CNN
 	1    10350 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR078
-U 1 1 5B24DE90
-P 10300 3000
-F 0 "#PWR078" H 10300 2850 50  0001 C CNN
-F 1 "+3V3" H 10300 3140 50  0000 C CNN
-F 2 "" H 10300 3000 50  0001 C CNN
-F 3 "" H 10300 3000 50  0001 C CNN
-	1    10300 3000
-	0    -1   -1   0   
-$EndComp
-Text Label 10550 3000 0    60   ~ 0
+Text Label 10900 3000 0    60   ~ 0
 PROBE_VDD
 Wire Wire Line
 	10500 3050 10500 3000
@@ -1349,32 +1230,21 @@ F 3 "" H 10600 2250 50  0001 C CNN
 	1    10600 2250
 	0    1    1    0   
 $EndComp
-Text Label 10350 2450 2    60   ~ 0
+Text Label 10300 2450 2    50   ~ 0
 PROBE_VDD
-Text Label 10350 2250 2    60   ~ 0
+Text Label 10300 2250 2    50   ~ 0
 PROBE_E_TX
-Text Label 10350 2350 2    60   ~ 0
+Text Label 10300 2350 2    50   ~ 0
 PROBE_E_RX
-$Comp
-L power:GND #PWR085
-U 1 1 5B25DB18
-P 10350 2550
-F 0 "#PWR085" H 10350 2300 50  0001 C CNN
-F 1 "GND" H 10350 2400 50  0000 C CNN
-F 2 "" H 10350 2550 50  0001 C CNN
-F 3 "" H 10350 2550 50  0001 C CNN
-	1    10350 2550
-	0    1    1    0   
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG086
 U 1 1 5B260765
-P 10550 750
-F 0 "#FLG086" H 10550 825 50  0001 C CNN
-F 1 "PWR_FLAG" H 10550 900 50  0000 C CNN
-F 2 "" H 10550 750 50  0001 C CNN
-F 3 "" H 10550 750 50  0001 C CNN
-	1    10550 750 
+P 10550 1050
+F 0 "#FLG086" H 10550 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 10550 1200 50  0000 C CNN
+F 2 "" H 10550 1050 50  0001 C CNN
+F 3 "" H 10550 1050 50  0001 C CNN
+	1    10550 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1425,27 +1295,6 @@ Wire Wire Line
 	3400 3000 3450 3000
 Wire Wire Line
 	3400 3200 3450 3200
-Text Label 9000 850  2    60   ~ 0
-PROBE_E_VDD
-Wire Wire Line
-	9000 850  10050 850 
-Wire Wire Line
-	10500 850  10550 850 
-Connection ~ 10550 850 
-$Comp
-L power:PWR_FLAG #FLG087
-U 1 1 5B4B85B3
-P 10050 750
-F 0 "#FLG087" H 10050 825 50  0001 C CNN
-F 1 "PWR_FLAG" H 10050 900 50  0000 C CNN
-F 2 "" H 10050 750 50  0001 C CNN
-F 3 "" H 10050 750 50  0001 C CNN
-	1    10050 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 750  10050 850 
-Connection ~ 10050 850 
 Wire Wire Line
 	7450 3150 7500 3150
 Wire Wire Line
@@ -1463,27 +1312,17 @@ Wire Wire Line
 $Comp
 L Device:C C10
 U 1 1 5B4BF737
-P 3550 5450
-F 0 "C10" H 3575 5550 50  0000 L CNN
-F 1 "1u" H 3575 5350 50  0000 L CNN
-F 2 "SquantorRcl:C_0402" H 3588 5300 50  0001 C CNN
-F 3 "" H 3550 5450 50  0001 C CNN
-	1    3550 5450
-	0    -1   -1   0   
+P 3200 5650
+F 0 "C10" H 3225 5750 50  0000 L CNN
+F 1 "1u" H 3225 5550 50  0000 L CNN
+F 2 "SquantorRcl:C_0402" H 3238 5500 50  0001 C CNN
+F 3 "" H 3200 5650 50  0001 C CNN
+	1    3200 5650
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 5450 3400 5450
-Wire Wire Line
-	3700 5450 3800 5450
-Wire Wire Line
-	3800 5450 3800 5600
-Connection ~ 3800 5750
-Connection ~ 3800 5600
 Connection ~ 3900 5150
 Wire Wire Line
 	3900 5250 3950 5250
-Wire Wire Line
-	3350 5750 3800 5750
 Wire Wire Line
 	1550 3650 1550 3750
 Wire Wire Line
@@ -1502,8 +1341,6 @@ Wire Wire Line
 	5850 4950 5950 4950
 Wire Wire Line
 	5850 4950 5850 5050
-Wire Wire Line
-	8800 2250 8950 2250
 Wire Wire Line
 	8800 2250 8800 2300
 Wire Wire Line
@@ -1528,14 +1365,6 @@ Wire Wire Line
 	10350 3900 10800 3900
 Wire Wire Line
 	2950 3200 3100 3200
-Wire Wire Line
-	10550 850  10550 1100
-Wire Wire Line
-	10050 850  10200 850 
-Wire Wire Line
-	3800 5750 3950 5750
-Wire Wire Line
-	3800 5600 3800 5750
 Wire Wire Line
 	3900 5150 3950 5150
 $Comp
@@ -1662,10 +1491,10 @@ Wire Wire Line
 	5800 6550 5600 6550
 Connection ~ 5600 6550
 $Comp
-L SquantorConnectors:DevBoardUartInput J?
+L SquantorConnectors:DevBoardUartInput J4
 U 1 1 5D5899E5
 P 11000 2400
-F 0 "J?" H 11050 2100 50  0000 R CNN
+F 0 "J4" H 11050 2100 50  0000 R CNN
 F 1 "DevBoardUartInput" H 11500 2750 50  0000 R CNN
 F 2 "Connectors_JST:JST_PH_S4B-PH-K_04x2.00mm_Angled" H 11000 2400 50  0001 C CNN
 F 3 "" H 11000 2400 50  0001 C CNN
@@ -1673,33 +1502,33 @@ F 3 "" H 11000 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10450 2250 10350 2250
+	10450 2250 10300 2250
 Wire Wire Line
-	10450 2350 10350 2350
+	10450 2350 10300 2350
 Wire Wire Line
-	10350 2450 10800 2450
+	10300 2450 10800 2450
 Wire Wire Line
-	10800 2550 10350 2550
+	10800 2550 10300 2550
 Wire Wire Line
 	10750 2250 10800 2250
 Wire Wire Line
 	10800 2350 10750 2350
 $Comp
-L Device:Fuse F?
+L Device:Fuse F2
 U 1 1 5D646630
-P 10350 850
-F 0 "F?" V 10250 850 50  0000 C CNN
-F 1 "0.3A" V 10450 850 50  0000 C CNN
-F 2 "SquantorRcl:F_0603_hand" V 10280 850 50  0001 C CNN
-F 3 "~" H 10350 850 50  0001 C CNN
-	1    10350 850 
+P 10700 3000
+F 0 "F2" V 10600 3000 50  0000 C CNN
+F 1 "0.3A" V 10800 3000 50  0000 C CNN
+F 2 "SquantorRcl:F_0603_hand" V 10630 3000 50  0001 C CNN
+F 3 "~" H 10700 3000 50  0001 C CNN
+	1    10700 3000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F1
 U 1 1 5D64B3C3
 P 1500 2350
-F 0 "F?" H 1560 2396 50  0000 L CNN
+F 0 "F1" H 1560 2396 50  0000 L CNN
 F 1 "0.5A" H 1560 2305 50  0000 L CNN
 F 2 "SquantorRcl:F_0603_hand" V 1430 2350 50  0001 C CNN
 F 3 "~" H 1500 2350 50  0001 C CNN
@@ -1707,10 +1536,10 @@ F 3 "~" H 1500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB?
+L Device:Ferrite_Bead FB1
 U 1 1 5D64C1C9
 P 1500 2700
-F 0 "FB?" H 1637 2746 50  0000 L CNN
+F 0 "FB1" H 1637 2746 50  0000 L CNN
 F 1 "Ferrite_Bead" H 1637 2655 50  0000 L CNN
 F 2 "SquantorRcl:L_0603" V 1430 2700 50  0001 C CNN
 F 3 "~" H 1500 2700 50  0001 C CNN
@@ -1718,10 +1547,10 @@ F 3 "~" H 1500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB?
+L Device:Ferrite_Bead FB2
 U 1 1 5D65FD8A
 P 6000 7200
-F 0 "FB?" V 5726 7200 50  0000 C CNN
+F 0 "FB2" V 5726 7200 50  0000 C CNN
 F 1 "Ferrite_Bead" V 5817 7200 50  0000 C CNN
 F 2 "SquantorRcl:L_0402" V 5930 7200 50  0001 C CNN
 F 3 "~" H 6000 7200 50  0001 C CNN
@@ -1729,10 +1558,10 @@ F 3 "~" H 6000 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB?
+L Device:Ferrite_Bead FB3
 U 1 1 5D6606FF
 P 6000 7450
-F 0 "FB?" V 6182 7450 50  0000 C CNN
+F 0 "FB3" V 6182 7450 50  0000 C CNN
 F 1 "Ferrite_Bead" V 6273 7450 50  0000 C CNN
 F 2 "SquantorRcl:L_0402" V 5930 7450 50  0001 C CNN
 F 3 "~" H 6000 7450 50  0001 C CNN
@@ -1753,9 +1582,9 @@ Wire Wire Line
 	3950 4450 3850 4450
 Wire Wire Line
 	3950 4550 3850 4550
-Text Label 3350 5450 2    50   ~ 0
+Text Label 3150 5450 2    50   ~ 0
 VSS
-Text Label 3350 5600 2    50   ~ 0
+Text Label 3150 6250 2    50   ~ 0
 VDD
 Text Label 3850 5850 2    50   ~ 0
 VSS
@@ -1810,10 +1639,10 @@ VSS
 Text Label 800  4200 1    50   ~ 0
 VDD
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0101
 U 1 1 5D894B34
 P 6250 7050
-F 0 "#FLG?" H 6250 7125 50  0001 C CNN
+F 0 "#FLG0101" H 6250 7125 50  0001 C CNN
 F 1 "PWR_FLAG" H 6250 7223 50  0000 C CNN
 F 2 "" H 6250 7050 50  0001 C CNN
 F 3 "~" H 6250 7050 50  0001 C CNN
@@ -1821,10 +1650,10 @@ F 3 "~" H 6250 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 5D895209
 P 6250 7500
-F 0 "#FLG?" H 6250 7575 50  0001 C CNN
+F 0 "#FLG0102" H 6250 7575 50  0001 C CNN
 F 1 "PWR_FLAG" H 6250 7673 50  0000 C CNN
 F 2 "" H 6250 7500 50  0001 C CNN
 F 3 "~" H 6250 7500 50  0001 C CNN
@@ -1841,8 +1670,6 @@ Wire Wire Line
 Connection ~ 6250 7450
 Wire Wire Line
 	6250 7450 6150 7450
-Text Label 1550 3750 3    50   ~ 0
-VSS
 Text Label 2900 2400 0    50   ~ 0
 VSS
 Text Label 750  1450 3    50   ~ 0
@@ -1853,7 +1680,7 @@ Text Label 1100 1600 3    50   ~ 0
 VSS
 Text Label 1300 1600 3    50   ~ 0
 VDD
-Text Label 1500 2150 1    50   ~ 0
+Text Label 1200 1600 3    50   ~ 0
 VUSB
 Text Label 2100 2400 2    50   ~ 0
 VUSB
@@ -1863,7 +1690,7 @@ U 1 1 5ABDDB30
 P 1200 1250
 F 0 "U1" H 1200 1500 60  0000 C CNN
 F 1 "MCP1702-MB" H 1200 1000 60  0000 C CNN
-F 2 "SquantorIC:SOT89-ViaTab-Microchip-MB" H 1200 1250 60  0001 C CNN
+F 2 "SquantorIC:SOT89-NXP-Viatab" H 1200 1250 60  0001 C CNN
 F 3 "" H 1200 1250 60  0001 C CNN
 	1    1200 1250
 	0    -1   -1   0   
@@ -1950,10 +1777,93 @@ Text Label 7500 850  0    50   ~ 0
 VSS
 Text Label 7500 1750 0    50   ~ 0
 VDD
-Text Label 7500 2150 0    50   ~ 0
-PROBE_E_VDD
 Wire Wire Line
 	7450 3050 7500 3050
 Text Label 7500 3050 0    50   ~ 0
 PROBE_E_TMS
+Text Label 1550 2150 0    50   ~ 0
+VUSB
+Wire Wire Line
+	3850 5750 3950 5750
+Text Label 3150 5850 2    50   ~ 0
+MCU_RST
+Wire Wire Line
+	3150 6250 3200 6250
+Wire Wire Line
+	3200 6250 3200 6200
+Wire Wire Line
+	3150 5850 3200 5850
+Wire Wire Line
+	3200 5850 3200 5800
+Wire Wire Line
+	3200 5900 3200 5850
+Connection ~ 3200 5850
+Wire Wire Line
+	3200 5500 3200 5450
+Wire Wire Line
+	3200 5450 3150 5450
+Text Label 8850 2650 0    50   ~ 0
+VSS
+Wire Wire Line
+	8650 2650 8800 2650
+Connection ~ 8800 2650
+Wire Wire Line
+	8800 2650 8850 2650
+Text Label 10300 2550 2    50   ~ 0
+VSS
+Wire Wire Line
+	8800 2250 8850 2250
+Text Label 8850 2250 0    50   ~ 0
+TARGET_PWR_SENSE
+Wire Wire Line
+	8800 1900 8800 1850
+Wire Wire Line
+	8800 1850 8850 1850
+Text Label 10300 3000 2    50   ~ 0
+VDD
+Wire Wire Line
+	10900 3000 10850 3000
+Wire Wire Line
+	10550 1050 10550 1100
+Text Label 7500 750  0    50   ~ 0
+PROBE_VDD
+Text Label 7500 1450 0    50   ~ 0
+PROBE_VDD
+Text Label 7500 2150 0    50   ~ 0
+PROBE_VDD
+Text Label 7500 2850 0    50   ~ 0
+PROBE_VDD
+Text Label 10650 1100 0    50   ~ 0
+PROBE_VDD
+Text Label 10600 1300 0    50   ~ 0
+VSS
+Text Label 9000 3900 2    50   ~ 0
+VSS
+Wire Wire Line
+	9000 3900 9050 3900
+Connection ~ 9050 3900
+Wire Wire Line
+	9050 3900 9200 3900
+Text Label 1550 3750 3    50   ~ 0
+VSS
+Text Label 2050 3100 2    50   ~ 0
+VSS
+Text Label 2950 3100 0    50   ~ 0
+VUSB
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E21E72B
+P 1450 2150
+F 0 "#FLG?" H 1450 2225 50  0001 C CNN
+F 1 "PWR_FLAG" V 1450 2277 50  0000 L CNN
+F 2 "" H 1450 2150 50  0001 C CNN
+F 3 "~" H 1450 2150 50  0001 C CNN
+	1    1450 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 2150 1500 2150
+Connection ~ 1500 2150
+Wire Wire Line
+	1500 2150 1550 2150
 $EndSCHEMATC
