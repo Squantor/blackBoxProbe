@@ -2556,28 +2556,6 @@ Wire Wire Line
 	5800 6550 5600 6550
 Connection ~ 5600 6550
 $Comp
-L Device:R R3
-U 1 1 5D7489A7
-P 2450 4000
-F 0 "R3" V 2530 4000 50  0000 C CNN
-F 1 "FB" V 2450 4000 50  0000 C CNN
-F 2 "SquantorRcl:L_0402_hand" V 2380 4000 50  0001 C CNN
-F 3 "" H 2450 4000 50  0001 C CNN
-	1    2450 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5D749BA1
-P 2450 4250
-F 0 "R4" V 2530 4250 50  0000 C CNN
-F 1 "FB" V 2450 4250 50  0000 C CNN
-F 2 "SquantorRcl:L_0402_hand" V 2380 4250 50  0001 C CNN
-F 3 "" H 2450 4250 50  0001 C CNN
-	1    2450 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L SquantorConnectors:DevBoardUartInput J?
 U 1 1 5D5899E5
 P 11000 2400
@@ -2628,9 +2606,31 @@ U 1 1 5D64C1C9
 P 1500 2700
 F 0 "FB?" H 1637 2746 50  0000 L CNN
 F 1 "Ferrite_Bead" H 1637 2655 50  0000 L CNN
-F 2 "SquantorRcl:L_0402_hand" V 1430 2700 50  0001 C CNN
+F 2 "SquantorRcl:L_0603" V 1430 2700 50  0001 C CNN
 F 3 "~" H 1500 2700 50  0001 C CNN
 	1    1500 2700
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5D65FD8A
+P 2450 4000
+F 0 "FB?" V 2176 4000 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2267 4000 50  0000 C CNN
+F 2 "SquantorRcl:L_0402" V 2380 4000 50  0001 C CNN
+F 3 "~" H 2450 4000 50  0001 C CNN
+	1    2450 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5D6606FF
+P 2450 4250
+F 0 "FB?" V 2176 4250 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2267 4250 50  0000 C CNN
+F 2 "SquantorRcl:L_0402" V 2380 4250 50  0001 C CNN
+F 3 "~" H 2450 4250 50  0001 C CNN
+	1    2450 4250
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
