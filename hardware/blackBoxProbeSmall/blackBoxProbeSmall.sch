@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:blackBoxProbeSmall-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -112,9 +113,9 @@ F 3 "" H 2350 3050 60  0001 C CNN
 	1    2500 3100
 	1    0    0    -1  
 $EndComp
-Text Label 3450 3000 0    60   ~ 0
+Text Label 3450 3000 0    50   ~ 0
 USB_D-
-Text Label 3450 3200 0    60   ~ 0
+Text Label 3450 3200 0    50   ~ 0
 USB_D+
 $Comp
 L SquantorST:STM32F103CBT U3
@@ -228,21 +229,21 @@ F 3 "" H 2700 2400 50  0001 C CNN
 	1    2700 2400
 	0    -1   -1   0   
 $EndComp
-Text Label 2600 2250 0    60   ~ 0
+Text Label 2600 2250 0    50   ~ 0
 USB_V
-Text Label 8950 5800 2    60   ~ 0
+Text Label 8950 5800 2    50   ~ 0
 MCU_TCK
-Text Label 8950 5700 2    60   ~ 0
+Text Label 8950 5700 2    50   ~ 0
 MCU_TMS
-Text Label 8950 5600 2    60   ~ 0
+Text Label 8950 5600 2    50   ~ 0
 USB_D+
-Text Label 8950 5500 2    60   ~ 0
+Text Label 8950 5500 2    50   ~ 0
 USB_D-
-Text Label 8950 5400 2    60   ~ 0
+Text Label 8950 5400 2    50   ~ 0
 PROBE_I_RX
-Text Label 8950 5300 2    60   ~ 0
+Text Label 8950 5300 2    50   ~ 0
 PROBE_I_TX
-Text Label 8950 5200 2    60   ~ 0
+Text Label 8950 5200 2    50   ~ 0
 USB_PU
 $Comp
 L Device:R R16
@@ -255,21 +256,21 @@ F 3 "" H 2750 3500 50  0001 C CNN
 	1    2750 3500
 	0    -1   -1   0   
 $EndComp
-Text Label 2550 3500 2    60   ~ 0
+Text Label 2550 3500 2    50   ~ 0
 USB_PU
-Text Label 8950 5100 2    60   ~ 0
+Text Label 8950 5100 2    50   ~ 0
 PROBE_I_RST_SEN
-Text Label 8950 5000 2    60   ~ 0
+Text Label 8950 5000 2    50   ~ 0
 PROBE_I_TDO
-Text Label 8950 4900 2    60   ~ 0
+Text Label 8950 4900 2    50   ~ 0
 PROBE_I_TCK
-Text Label 8950 4800 2    60   ~ 0
+Text Label 8950 4800 2    50   ~ 0
 PROBE_I_TMS
-Text Label 8950 4700 2    60   ~ 0
+Text Label 8950 4700 2    50   ~ 0
 PROBE_I_TDI
-Text Label 8950 4600 2    60   ~ 0
+Text Label 8950 4600 2    50   ~ 0
 PROBE_I_RST
-Text Label 8950 4500 2    60   ~ 0
+Text Label 8950 4500 2    50   ~ 0
 PROBE_TMS_DIR
 $Comp
 L Device:C C12
@@ -293,9 +294,9 @@ F 3 "" H 5200 6450 50  0001 C CNN
 	1    5200 6450
 	0    1    1    0   
 $EndComp
-Text Label 5900 5750 2    60   ~ 0
+Text Label 5900 5750 2    50   ~ 0
 USB_V
-Text Label 5900 5650 2    60   ~ 0
+Text Label 5900 5650 2    50   ~ 0
 BUTTON
 $Comp
 L Device:R R6
@@ -319,21 +320,21 @@ F 3 "" H 800 4900 60  0001 C CNN
 	1    800  4900
 	0    -1   -1   0   
 $EndComp
-Text Label 1000 4600 0    60   ~ 0
+Text Label 1000 4600 0    50   ~ 0
 BUTTON
-Text Label 5900 5550 2    60   ~ 0
+Text Label 5900 5550 2    50   ~ 0
 LED2
-Text Label 5900 5450 2    60   ~ 0
+Text Label 5900 5450 2    50   ~ 0
 LED1
-Text Label 8950 5900 2    60   ~ 0
+Text Label 8950 5900 2    50   ~ 0
 MCU_TDI
-Text Label 5900 4750 2    60   ~ 0
+Text Label 5900 4750 2    50   ~ 0
 MCU_TDO
-Text Label 5900 4650 2    60   ~ 0
+Text Label 5900 4650 2    50   ~ 0
 LED0
-Text Label 5900 4550 2    60   ~ 0
+Text Label 5900 4550 2    50   ~ 0
 TARGET_PWR_EN
-Text Label 5900 4450 2    60   ~ 0
+Text Label 5900 4450 2    50   ~ 0
 TARGET_PWR_SENSE
 $Comp
 L Device:C C11
@@ -436,15 +437,15 @@ F 3 "" H 3200 7350 50  0001 C CNN
 	1    3200 7350
 	0    1    1    0   
 $EndComp
-Text Label 2750 6950 2    60   ~ 0
+Text Label 2750 6950 2    50   ~ 0
 MCU_TMS
-Text Label 2750 7050 2    60   ~ 0
+Text Label 2750 7050 2    50   ~ 0
 MCU_TCK
-Text Label 2750 7150 2    60   ~ 0
+Text Label 2750 7150 2    50   ~ 0
 MCU_TDO
-Text Label 2750 7250 2    60   ~ 0
+Text Label 2750 7250 2    50   ~ 0
 MCU_TDI
-Text Label 2750 7350 2    60   ~ 0
+Text Label 2750 7350 2    50   ~ 0
 MCU_RST
 $Comp
 L Device:R R18
@@ -501,7 +502,7 @@ F 3 "" H 4950 700 50  0001 C CNN
 	1    4950 700 
 	0    1    1    0   
 $EndComp
-Text Label 5150 1200 0    60   ~ 0
+Text Label 5150 1200 0    50   ~ 0
 PROBE_E_VDD
 $Comp
 L SquantorConnectors:JTAG_2X05 J3
@@ -536,7 +537,7 @@ F 3 "" H 4950 1600 50  0001 C CNN
 	1    4950 1600
 	0    1    1    0   
 $EndComp
-Text Label 5150 1600 0    60   ~ 0
+Text Label 5150 1600 0    50   ~ 0
 PROBE_E_VDD
 $Comp
 L Device:C C19
@@ -560,7 +561,7 @@ F 3 "" H 4950 2000 50  0001 C CNN
 	1    4950 2000
 	0    1    1    0   
 $EndComp
-Text Label 5150 2000 0    60   ~ 0
+Text Label 5150 2000 0    50   ~ 0
 PROBE_E_VDD
 $Comp
 L Device:C C21
@@ -584,7 +585,7 @@ F 3 "" H 4950 2400 50  0001 C CNN
 	1    4950 2400
 	0    1    1    0   
 $EndComp
-Text Label 5150 2400 0    60   ~ 0
+Text Label 5150 2400 0    50   ~ 0
 PROBE_E_VDD
 $Comp
 L SquantorLogic:74X2T45 U5
@@ -674,15 +675,15 @@ F 3 "" H 9300 1500 50  0001 C CNN
 	1    9300 1500
 	0    1    1    0   
 $EndComp
-Text Label 9000 1100 2    60   ~ 0
+Text Label 9000 1100 2    50   ~ 0
 PROBE_E_TMS
-Text Label 9000 1200 2    60   ~ 0
+Text Label 9000 1200 2    50   ~ 0
 PROBE_E_TCK
-Text Label 9000 1300 2    60   ~ 0
+Text Label 9000 1300 2    50   ~ 0
 PROBE_E_TDO
-Text Label 9000 1400 2    60   ~ 0
+Text Label 9000 1400 2    50   ~ 0
 PROBE_E_TDI
-Text Label 9000 1500 2    60   ~ 0
+Text Label 9000 1500 2    50   ~ 0
 PROBE_E_RST
 Text Label 6650 950  2    50   ~ 0
 PROBE_I_TX
@@ -1082,15 +1083,15 @@ Wire Wire Line
 Wire Wire Line
 	9050 3000 9000 3000
 Connection ~ 10550 1100
-Text Label 9000 3000 2    60   ~ 0
+Text Label 9000 3000 2    50   ~ 0
 PROBE_E_VDD
-Text Label 9000 3400 2    60   ~ 0
+Text Label 9000 3400 2    50   ~ 0
 PROBE_E_RST
-Text Label 8700 3650 2    60   ~ 0
+Text Label 8700 3650 2    50   ~ 0
 PROBE_I_RST
-Text Label 9550 3650 0    60   ~ 0
+Text Label 9550 3650 0    50   ~ 0
 PROBE_E_RST
-Text Label 9250 3400 0    60   ~ 0
+Text Label 9250 3400 0    50   ~ 0
 PROBE_I_RST_SEN
 $Comp
 L Device:R R28
@@ -1103,7 +1104,7 @@ F 3 "" H 10350 3700 50  0001 C CNN
 	1    10350 3700
 	1    0    0    -1  
 $EndComp
-Text Label 10900 3000 0    60   ~ 0
+Text Label 10900 3000 0    50   ~ 0
 PROBE_VDD
 Wire Wire Line
 	10500 3050 10500 3000
@@ -1131,7 +1132,7 @@ Wire Wire Line
 	10800 3900 10800 3250
 Wire Wire Line
 	10350 4000 10400 4000
-Text Label 10400 4000 0    60   ~ 0
+Text Label 10400 4000 0    50   ~ 0
 TARGET_PWR_EN
 NoConn ~ 9000 4400
 NoConn ~ 9000 6100
@@ -1199,11 +1200,11 @@ Wire Wire Line
 	1400 6650 1450 6650
 Wire Wire Line
 	1750 6650 1900 6650
-Text Label 1900 6450 0    60   ~ 0
+Text Label 1900 6450 0    50   ~ 0
 LED0
-Text Label 1900 6550 0    60   ~ 0
+Text Label 1900 6550 0    50   ~ 0
 LED1
-Text Label 1900 6650 0    60   ~ 0
+Text Label 1900 6650 0    50   ~ 0
 LED2
 NoConn ~ 5950 5350
 NoConn ~ 5950 5250
@@ -1258,9 +1259,9 @@ F 3 "" H 10250 3250 50  0001 C CNN
 	1    10400 3250
 	1    0    0    -1  
 $EndComp
-Text Label 1950 3000 1    60   ~ 0
+Text Label 1950 3000 1    50   ~ 0
 USB_D_C-
-Text Label 1950 3200 3    60   ~ 0
+Text Label 1950 3200 3    50   ~ 0
 USB_D_C+
 $Comp
 L Device:R R27
@@ -1382,7 +1383,7 @@ Wire Wire Line
 	3400 6800 3350 6800
 Wire Wire Line
 	3050 6800 2750 6800
-Text Label 2750 6800 2    60   ~ 0
+Text Label 2750 6800 2    50   ~ 0
 MCU_TCK
 $Comp
 L Device:R R37
@@ -1399,7 +1400,7 @@ Wire Wire Line
 	3150 6700 3100 6700
 Wire Wire Line
 	2800 6700 2750 6700
-Text Label 2750 6700 2    60   ~ 0
+Text Label 2750 6700 2    50   ~ 0
 MCU_TMS
 Wire Wire Line
 	1450 3250 1550 3250
