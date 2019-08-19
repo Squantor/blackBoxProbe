@@ -446,7 +446,7 @@ F 3 "" H 4950 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5150 1250 0    50   ~ 0
-PROBE_E_VDD
+PROBE_VDD
 $Comp
 L SquantorConnectors:JTAG_2X05 J3
 U 1 1 5B2358DA
@@ -481,7 +481,7 @@ F 3 "" H 4950 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5150 1650 0    50   ~ 0
-PROBE_E_VDD
+PROBE_VDD
 $Comp
 L Device:C C19
 U 1 1 5B236220
@@ -505,7 +505,7 @@ F 3 "" H 4950 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5150 2050 0    50   ~ 0
-PROBE_E_VDD
+PROBE_VDD
 $Comp
 L Device:C C21
 U 1 1 5B236378
@@ -529,7 +529,7 @@ F 3 "" H 4950 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5150 2450 0    50   ~ 0
-PROBE_E_VDD
+PROBE_VDD
 $Comp
 L SquantorLogic:74X2T45 U5
 U 1 1 5B2385A7
@@ -949,7 +949,7 @@ Wire Wire Line
 	9050 3000 9000 3000
 Connection ~ 10650 750 
 Text Label 9000 3000 2    50   ~ 0
-PROBE_E_VDD
+PROBE_VDD
 Text Label 9000 3400 2    50   ~ 0
 PROBE_E_RST
 Text Label 8700 3650 2    50   ~ 0
