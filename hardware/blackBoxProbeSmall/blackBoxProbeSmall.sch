@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:blackBoxProbeSmall-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
-F 1 "V20190815" H 850 7700 60  0000 C CNN
+F 1 "V20200127" H 850 7700 60  0000 C CNN
 F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
@@ -372,7 +371,7 @@ $EndComp
 Text Label 9750 2200 0    50   ~ 0
 PROBE_VDD
 $Comp
-L SquantorConnectors:JTAG_2X05 J2
+L SquantorConnectorsNamed:JTAG_2X05_IN J2
 U 1 1 5B2268AD
 P 3900 7150
 F 0 "J2" H 3900 7500 60  0000 C CNN
@@ -448,7 +447,7 @@ $EndComp
 Text Label 5150 1250 0    50   ~ 0
 PROBE_VDD
 $Comp
-L SquantorConnectors:JTAG_2X05 J3
+L SquantorConnectorsNamed:JTAG_2X05_OUT J3
 U 1 1 5B2358DA
 P 10100 950
 F 0 "J3" H 10100 1300 60  0000 C CNN
@@ -563,17 +562,6 @@ F 3 "" H 7100 3050 60  0001 C CNN
 	1    7100 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R24
-U 1 1 5B239665
-P 9400 750
-F 0 "R24" V 9350 550 50  0000 C CNN
-F 1 "33" V 9400 750 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 9330 750 50  0001 C CNN
-F 3 "" H 9400 750 50  0001 C CNN
-	1    9400 750 
-	0    1    1    0   
-$EndComp
 Text Label 9100 750  2    50   ~ 0
 PROBE_E_TMS
 Text Label 9100 850  2    50   ~ 0
@@ -586,15 +574,15 @@ Text Label 9100 1150 2    50   ~ 0
 PROBE_E_RST
 Text Label 6650 950  2    50   ~ 0
 PROBE_I_TX
-Text Label 7900 950  0    50   ~ 0
+Text Label 7500 950  0    50   ~ 0
 PROBE_E_TX
 Text Label 6700 1550 2    50   ~ 0
 PROBE_I_TCK
 Text Label 6700 1650 2    50   ~ 0
 PROBE_I_TDI
-Text Label 7900 1550 0    50   ~ 0
+Text Label 7500 1550 0    50   ~ 0
 PROBE_E_TCK
-Text Label 7900 1650 0    50   ~ 0
+Text Label 7500 1650 0    50   ~ 0
 PROBE_E_TDI
 Text Label 6300 2250 2    50   ~ 0
 PROBE_I_TDO
@@ -602,7 +590,7 @@ Text Label 7500 2250 0    50   ~ 0
 PROBE_E_TDO
 Text Label 7500 2350 0    50   ~ 0
 PROBE_E_RX
-Text Label 6250 3050 2    50   ~ 0
+Text Label 6650 3050 2    50   ~ 0
 PROBE_I_TMS
 Text Label 7500 3150 0    50   ~ 0
 PROBE_TMS_DIR
@@ -906,7 +894,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2850 7500 2850
 Wire Wire Line
-	6750 3050 6600 3050
+	6750 3050 6650 3050
 Wire Wire Line
 	6750 2850 6650 2850
 Wire Wire Line
@@ -916,9 +904,9 @@ Wire Wire Line
 Wire Wire Line
 	9600 950  9550 950 
 Wire Wire Line
-	9250 750  9100 750 
+	9150 750  9100 750 
 Wire Wire Line
-	9250 950  9100 950 
+	9150 950  9100 950 
 Wire Wire Line
 	10600 850  10650 850 
 Wire Wire Line
@@ -1005,66 +993,14 @@ NoConn ~ 9000 6200
 NoConn ~ 9000 6300
 NoConn ~ 5200 5800
 NoConn ~ 5200 5900
-$Comp
-L Device:R R29
-U 1 1 5B25639D
-P 1700 6750
-F 0 "R29" V 1750 6550 50  0000 C CNN
-F 1 "330" V 1700 6750 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 1630 6750 50  0001 C CNN
-F 3 "" H 1700 6750 50  0001 C CNN
-	1    1700 6750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	800  6900 850  6900
 Wire Wire Line
-	1850 6750 2000 6750
-$Comp
-L Device:R R30
-U 1 1 5B257198
-P 1700 6850
-F 0 "R30" V 1750 6650 50  0000 C CNN
-F 1 "330" V 1700 6850 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 1630 6850 50  0001 C CNN
-F 3 "" H 1700 6850 50  0001 C CNN
-	1    1700 6850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	1500 6850 1550 6850
-Wire Wire Line
-	1850 6850 2000 6850
-$Comp
-L Device:R R31
-U 1 1 5B257543
-P 1700 6950
-F 0 "R31" V 1750 6750 50  0000 C CNN
-F 1 "330" V 1700 6950 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 1630 6950 50  0001 C CNN
-F 3 "" H 1700 6950 50  0001 C CNN
-	1    1700 6950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1500 6950 1550 6950
 Wire Wire Line
-	1850 6950 2000 6950
-$Comp
-L Device:R R32
-U 1 1 5B2576B0
-P 1700 7050
-F 0 "R32" V 1750 6850 50  0000 C CNN
-F 1 "330" V 1700 7050 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 1630 7050 50  0001 C CNN
-F 3 "" H 1700 7050 50  0001 C CNN
-	1    1700 7050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	1500 7050 1550 7050
-Wire Wire Line
-	1850 7050 2000 7050
 Text Label 2000 6850 0    50   ~ 0
 LED0
 Text Label 2000 6950 0    50   ~ 0
@@ -1346,7 +1282,7 @@ Wire Wire Line
 	5050 6500 4850 6500
 Connection ~ 4850 6500
 $Comp
-L SquantorConnectors:DevBoardUartOutput J4
+L SquantorConnectorsNamed:DevBoardUartOutput J4
 U 1 1 5D5899E5
 P 11000 1650
 F 0 "J4" H 11050 1350 50  0000 R CNN
@@ -1630,7 +1566,7 @@ Text Label 7500 1750 0    50   ~ 0
 VDD
 Wire Wire Line
 	7450 3050 7500 3050
-Text Label 7950 3050 0    50   ~ 0
+Text Label 7500 3050 0    50   ~ 0
 PROBE_E_TMS
 Text Label 1550 2150 0    50   ~ 0
 VUSB
@@ -1720,42 +1656,14 @@ Wire Wire Line
 $Comp
 L Device:R R5
 U 1 1 5D5DAC0E
-P 7650 950
-F 0 "R5" V 7600 1100 50  0000 C CNN
-F 1 "33" V 7650 950 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 7580 950 50  0001 C CNN
-F 3 "" H 7650 950 50  0001 C CNN
-	1    7650 950 
+P 10600 1500
+F 0 "R5" V 10550 1300 50  0000 C CNN
+F 1 "33" V 10600 1500 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 10530 1500 50  0001 C CNN
+F 3 "" H 10600 1500 50  0001 C CNN
+	1    10600 1500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7800 950  7900 950 
-$Comp
-L Device:R R8
-U 1 1 5D61A2C3
-P 7650 1550
-F 0 "R8" V 7600 1700 50  0000 C CNN
-F 1 "33" V 7650 1550 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 7580 1550 50  0001 C CNN
-F 3 "" H 7650 1550 50  0001 C CNN
-	1    7650 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5D61A69B
-P 7650 1650
-F 0 "R9" V 7600 1800 50  0000 C CNN
-F 1 "33" V 7650 1650 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 7580 1650 50  0001 C CNN
-F 3 "" H 7650 1650 50  0001 C CNN
-	1    7650 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7800 1550 7900 1550
-Wire Wire Line
-	7900 1650 7800 1650
 $Comp
 L Device:R R3
 U 1 1 5D65ADCE
@@ -1782,49 +1690,6 @@ Wire Wire Line
 	6400 2250 6300 2250
 Wire Wire Line
 	6300 2350 6400 2350
-$Comp
-L Device:R R2
-U 1 1 5D69AC74
-P 6450 3050
-F 0 "R2" V 6400 3200 50  0000 C CNN
-F 1 "33" V 6450 3050 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 6380 3050 50  0001 C CNN
-F 3 "" H 6450 3050 50  0001 C CNN
-	1    6450 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5D69B0FB
-P 7650 3050
-F 0 "R13" V 7600 3200 50  0000 C CNN
-F 1 "33" V 7650 3050 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 7580 3050 50  0001 C CNN
-F 3 "" H 7650 3050 50  0001 C CNN
-	1    7650 3050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7950 3050 7800 3050
-Wire Wire Line
-	6250 3050 6300 3050
-Wire Wire Line
-	10300 1500 10800 1500
-Wire Wire Line
-	9100 1050 9600 1050
-Wire Wire Line
-	9100 850  9600 850 
-$Comp
-L Device:R R25
-U 1 1 5B239CE3
-P 9400 950
-F 0 "R25" V 9350 750 50  0000 C CNN
-F 1 "33" V 9400 950 50  0000 C CNN
-F 2 "SquantorRcl:R_0402_hand" V 9330 950 50  0001 C CNN
-F 3 "" H 9400 950 50  0001 C CNN
-	1    9400 950 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9100 1150 9600 1150
 $Comp
@@ -1919,4 +1784,46 @@ Wire Wire Line
 	3350 7150 3400 7150
 Text Label 3350 7150 2    50   ~ 0
 MCU_TDO
+Wire Wire Line
+	1950 6750 2000 6750
+Wire Wire Line
+	1950 6850 2000 6850
+Wire Wire Line
+	1950 6950 2000 6950
+Wire Wire Line
+	1950 7050 2000 7050
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5E37D426
+P 1750 6950
+F 0 "RN?" V 1450 6950 50  0000 C CNN
+F 1 "470" V 1950 6950 50  0000 C CNN
+F 2 "" V 2025 6950 50  0001 C CNN
+F 3 "~" H 1750 6950 50  0001 C CNN
+	1    1750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5E429904
+P 9350 950
+F 0 "RN?" V 9050 950 50  0000 C CNN
+F 1 "33" V 9550 950 50  0000 C CNN
+F 2 "" V 9625 950 50  0001 C CNN
+F 3 "~" H 9350 950 50  0001 C CNN
+	1    9350 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 1050 9600 1050
+Wire Wire Line
+	9600 850  9550 850 
+Wire Wire Line
+	9150 850  9100 850 
+Wire Wire Line
+	9100 1050 9150 1050
+Wire Wire Line
+	10300 1500 10450 1500
+Wire Wire Line
+	10750 1500 10800 1500
 $EndSCHEMATC
