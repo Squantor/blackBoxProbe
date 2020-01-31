@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name SquantorButtons)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorButtons.lib)(options "")(descr ""))
   (lib (name SquantorConnectors)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorConnectors.lib)(options "")(descr ""))
   (lib (name SquantorLabels)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorLabels.lib)(options "")(descr ""))
   (lib (name SquantorPCBOutline)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorPCBOutline.lib)(options "")(descr ""))
@@ -27,4 +26,5 @@
   (lib (name SquantorTransformer)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorTransformer.lib)(options "")(descr ""))
   (lib (name SquantorUsb)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorUsb.lib)(options "")(descr ""))
   (lib (name SquantorWinbond)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorWinbond.lib)(options "")(descr ""))
+  (lib (name SquantorButtons)(type Legacy)(uri ${KIPRJMOD}/../squantorPcbLibrary/SquantorButtons.lib)(options "")(descr ""))
 )
