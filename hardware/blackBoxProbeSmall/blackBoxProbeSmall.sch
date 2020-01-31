@@ -576,13 +576,13 @@ Text Label 6650 950  2    50   ~ 0
 PROBE_I_TX
 Text Label 7500 950  0    50   ~ 0
 PROBE_E_TX
-Text Label 6700 1550 2    50   ~ 0
-PROBE_I_TCK
 Text Label 6700 1650 2    50   ~ 0
+PROBE_I_TCK
+Text Label 6700 1550 2    50   ~ 0
 PROBE_I_TDI
-Text Label 7500 1550 0    50   ~ 0
-PROBE_E_TCK
 Text Label 7500 1650 0    50   ~ 0
+PROBE_E_TCK
+Text Label 7500 1550 0    50   ~ 0
 PROBE_E_TDI
 Text Label 6700 2250 2    50   ~ 0
 PROBE_I_TDO
