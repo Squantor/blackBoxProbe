@@ -19,7 +19,7 @@ U 1 1 5A1357A5
 P 850 7700
 F 0 "N2" H 850 7800 60  0000 C CNN
 F 1 "V20200131" H 850 7700 60  0000 C CNN
-F 2 "SquantorLabels:Label_version" H 850 7700 60  0001 C CNN
+F 2 "SquantorLabels:Label_Generic" H 850 7700 60  0001 C CNN
 F 3 "" H 850 7700 60  0001 C CNN
 	1    850  7700
 	1    0    0    -1  
@@ -1181,12 +1181,12 @@ $Comp
 L SquantorOpto:mentor_1296.4124 DA1
 U 1 1 5C0D962C
 P 1200 6900
-F 0 "DA1" H 1200 6463 60  0000 C CNN
-F 1 "mentor_1296.4124" H 1200 6569 60  0000 C CNN
+F 0 "DA1" H 1200 7200 60  0000 C CNN
+F 1 "mentor_1296.4124" H 1200 6600 60  0000 C CNN
 F 2 "SquantorOpto:mentor_1296.4124" H 1100 6900 60  0001 C CNN
 F 3 "" H 1100 6900 60  0001 C CNN
 	1    1200 6900
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	850  6750 850  6850
@@ -1631,8 +1631,6 @@ F 3 "" H 10600 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9100 1150 9600 1150
-Wire Wire Line
 	5150 4700 5200 4700
 Wire Wire Line
 	4300 7500 4350 7500
@@ -1666,13 +1664,13 @@ $EndComp
 $Comp
 L Device:R_Pack04 RN4
 U 1 1 5E429904
-P 9350 950
-F 0 "RN4" V 9050 950 50  0000 C CNN
-F 1 "33" V 9550 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 9625 950 50  0001 C CNN
-F 3 "~" H 9350 950 50  0001 C CNN
-	1    9350 950 
-	0    1    1    0   
+P 9350 850
+F 0 "RN4" V 9050 850 50  0000 C CNN
+F 1 "33" V 9550 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 9625 850 50  0001 C CNN
+F 3 "~" H 9350 850 50  0001 C CNN
+	1    9350 850 
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	9550 1050 9600 1050
@@ -1730,4 +1728,6 @@ Wire Wire Line
 	3500 7200 3900 7200
 Wire Wire Line
 	4350 7600 3850 7600
+Wire Wire Line
+	9100 1150 9600 1150
 $EndSCHEMATC
