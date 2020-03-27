@@ -27,3 +27,6 @@ _autosave-*
 # misc caches
 fp-info-cache
 *-cache.lib
+
+#temporary cad files
+*.FCStd?
