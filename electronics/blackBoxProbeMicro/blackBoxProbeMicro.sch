@@ -83,7 +83,7 @@ U 1 1 5ABDC72C
 P 1000 1300
 F 0 "J1" H 850 1600 60  0000 C CNN
 F 1 "USB-C" H 1000 600 60  0000 C CNN
-F 2 "SquantorUsb:USB-muB-SMD_TH" H 1150 1350 60  0001 C CNN
+F 2 "SquantorUsb:USB-C-HRO-31-M-12" H 1150 1350 60  0001 C CNN
 F 3 "" H 1150 1350 60  0001 C CNN
 	1    1000 1300
 	1    0    0    -1  
@@ -1574,10 +1574,10 @@ F 3 "" H 1800 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SquantorSwitches:2pin_tact_switch S?
+L SquantorSwitches:2pin_tact_switch S1
 U 1 1 614C0395
 P 3700 7200
-F 0 "S?" V 3647 7378 60  0000 L CNN
+F 0 "S1" V 3647 7378 60  0000 L CNN
 F 1 "2pin_tact_switch" V 3753 7378 60  0000 L CNN
 F 2 "SquantorSwitches:TD-85XU" H 3700 7200 60  0001 C CNN
 F 3 "" H 3700 7200 60  0001 C CNN
