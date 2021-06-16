@@ -382,21 +382,21 @@ PROBE_VDD
 $Comp
 L SquantorConnectorsNamed:JTAG_2X05_IN J2
 U 1 1 5B2268AD
-P 2400 2750
-F 0 "J2" H 2400 3100 60  0000 C CNN
-F 1 "JTAG_2X05" H 2400 2400 60  0000 C CNN
-F 2 "SquantorConnectors:Header-0127-2X05-H006" H 2400 2900 60  0001 C CNN
-F 3 "" H 2400 2900 60  0001 C CNN
-	1    2400 2750
+P 3350 2750
+F 0 "J2" H 3350 3100 60  0000 C CNN
+F 1 "JTAG_2X05" H 3350 2400 60  0000 C CNN
+F 2 "SquantorConnectors:Header-0127-2X05-H006" H 3350 2900 60  0001 C CNN
+F 3 "" H 3350 2900 60  0001 C CNN
+	1    3350 2750
 	1    0    0    -1  
 $EndComp
-Text Label 950  2900 2    50   ~ 0
+Text Label 2200 2550 2    50   ~ 0
 MCU_TMS
-Text Label 950  3000 2    50   ~ 0
+Text Label 2200 2650 2    50   ~ 0
 MCU_TCK
-Text Label 950  3200 2    50   ~ 0
+Text Label 2200 2850 2    50   ~ 0
 MCU_TDI
-Text Label 2200 3250 0    50   ~ 0
+Text Label 3150 3250 0    50   ~ 0
 MCU_RST
 $Comp
 L Device:R R18
@@ -569,8 +569,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 1550 8900 1550
 Wire Wire Line
-	3300 1700 3250 1700
-Wire Wire Line
 	8950 1450 8900 1450
 Wire Wire Line
 	8950 1350 8900 1350
@@ -642,14 +640,14 @@ Wire Wire Line
 	3800 5400 3800 5450
 Connection ~ 3800 5450
 Wire Wire Line
-	2900 2750 2950 2750
+	3850 2750 3900 2750
 Wire Wire Line
-	2900 2650 2950 2650
+	3850 2650 3900 2650
 Wire Wire Line
-	2950 2650 2950 2750
-Connection ~ 2950 2750
+	3900 2650 3900 2750
+Connection ~ 3900 2750
 Wire Wire Line
-	2950 2950 2900 2950
+	3900 2950 3850 2950
 Wire Wire Line
 	1550 4650 1600 4650
 Wire Wire Line
@@ -824,11 +822,6 @@ F 3 "" H 3450 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3250 1700 3250 1600
-Wire Wire Line
-	3200 1600 3250 1600
-Connection ~ 3250 1600
-Wire Wire Line
 	3300 1400 3200 1400
 Wire Wire Line
 	3600 1400 3750 1400
@@ -869,9 +862,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 5450 3800 5500
 Wire Wire Line
-	2950 2750 3000 2750
+	3900 2750 3950 2750
 Wire Wire Line
-	2950 2750 2950 2950
+	3900 2750 3900 2950
 Wire Wire Line
 	2200 3850 2200 4050
 Wire Wire Line
@@ -889,11 +882,9 @@ Wire Wire Line
 Wire Wire Line
 	6700 6100 7150 6100
 Wire Wire Line
-	3250 1600 3300 1600
-Wire Wire Line
 	7500 1550 7550 1550
 Wire Wire Line
-	2900 2550 3000 2550
+	3850 2550 3950 2550
 Wire Wire Line
 	5100 6750 5150 6750
 $Comp
@@ -1023,18 +1014,16 @@ Text Label 7950 4950 2    50   ~ 0
 VSS
 Text Label 8550 5050 0    50   ~ 0
 VSS
-Text Label 950  2600 2    50   ~ 0
+Text Label 1350 2650 2    50   ~ 0
 VSS
-Text Label 3000 2750 0    50   ~ 0
+Text Label 3950 2750 0    50   ~ 0
 VSS
-Text Label 3000 2550 0    50   ~ 0
+Text Label 3950 2550 0    50   ~ 0
 VDD
-Text Label 950  2500 2    50   ~ 0
+Text Label 1350 2550 2    50   ~ 0
 VDD
 Text Label 4700 6750 2    50   ~ 0
 VSS
-Text Label 5500 6750 0    50   ~ 0
-VDD
 Text Label 10800 5450 0    50   ~ 0
 VSSA
 Text Label 10800 5200 0    50   ~ 0
@@ -1210,7 +1199,7 @@ F 3 "~" H 3100 650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 3250 8900 3250
-Text Label 950  3100 2    50   ~ 0
+Text Label 2200 2750 2    50   ~ 0
 MCU_TDO
 Wire Wire Line
 	5450 6750 5500 6750
@@ -1222,9 +1211,9 @@ Wire Wire Line
 	5450 7350 5500 7350
 Wire Wire Line
 	2950 3750 3000 3750
-Text Label 950  2700 2    50   ~ 0
+Text Label 1350 2750 2    50   ~ 0
 VDD
-Text Label 950  2800 2    50   ~ 0
+Text Label 1350 2850 2    50   ~ 0
 VDD
 Wire Wire Line
 	1100 4050 1150 4050
@@ -1557,20 +1546,18 @@ Wire Notes Line
 	3450 2100 3450 2250
 Wire Wire Line
 	8350 5050 8750 5050
-Text Notes 2600 3250 0    50   ~ 0
+Text Notes 3750 3250 0    50   ~ 0
 MCU_JTAG
 Wire Notes Line
-	3200 2350 550  2350
+	4150 2350 550  2350
 Wire Notes Line
 	550  2350 550  3300
 Wire Notes Line
-	550  3300 3200 3300
+	600  3300 4200 3300
 Wire Notes Line
-	3200 2350 3200 3300
+	4150 2350 4150 3300
 Wire Notes Line
-	3200 3150 2550 3150
-Wire Notes Line
-	2550 3150 2550 3300
+	4150 3150 3700 3150
 Wire Notes Line
 	6000 6550 6000 7700
 Text Notes 6650 7650 0    50   ~ 0
@@ -1592,89 +1579,102 @@ Wire Notes Line
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 60CB47F6
-P 1300 2700
-F 0 "RN1" V 1050 2500 50  0000 C CNN
-F 1 "47k" V 1450 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1575 2700 50  0001 C CNN
-F 3 "~" H 1300 2700 50  0001 C CNN
-	1    1300 2700
-	0    1    1    0   
+P 1650 2750
+F 0 "RN1" V 1400 2550 50  0000 C CNN
+F 1 "47k" V 1800 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1925 2750 50  0001 C CNN
+F 3 "~" H 1650 2750 50  0001 C CNN
+	1    1650 2750
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 60CEE63B
-P 1300 3100
-F 0 "RN2" V 1050 2850 50  0000 C CNN
-F 1 "33" V 1450 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1575 3100 50  0001 C CNN
-F 3 "~" H 1300 3100 50  0001 C CNN
-	1    1300 3100
-	0    1    1    0   
+P 2550 2750
+F 0 "RN2" V 2300 2500 50  0000 C CNN
+F 1 "33" V 2700 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2825 2750 50  0001 C CNN
+F 3 "~" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1100 2900 950  2900
+	1450 2850 1350 2850
 Wire Wire Line
-	1100 3000 950  3000
+	1450 2750 1350 2750
 Wire Wire Line
-	1100 3100 950  3100
+	1450 2650 1350 2650
 Wire Wire Line
-	1100 3200 950  3200
+	1450 2550 1350 2550
 Wire Wire Line
-	1100 2800 950  2800
+	2850 2950 2800 2950
 Wire Wire Line
-	1100 2700 950  2700
+	2800 2950 2800 3250
 Wire Wire Line
-	1100 2600 950  2600
+	2800 3250 3150 3250
 Wire Wire Line
-	1100 2500 950  2500
+	2850 2550 2750 2550
 Wire Wire Line
-	1900 2950 1850 2950
+	2750 2650 2850 2650
 Wire Wire Line
-	1850 2950 1850 3250
+	2850 2750 2750 2750
 Wire Wire Line
-	1850 3250 2200 3250
+	2750 2850 2850 2850
 Wire Wire Line
-	1500 2900 1650 2900
+	1850 2550 2350 2550
 Wire Wire Line
-	1650 2900 1650 2550
+	1850 2650 2350 2650
 Wire Wire Line
-	1650 2550 1900 2550
+	1850 2750 2350 2750
 Wire Wire Line
-	1500 3000 1700 3000
+	1850 2850 2350 2850
+Text Label 5500 6750 0    50   ~ 0
+VDD
 Wire Wire Line
-	1700 3000 1700 2650
+	3300 1600 3250 1600
 Wire Wire Line
-	1700 2650 1900 2650
+	3250 1600 3250 1700
 Wire Wire Line
-	1500 3100 1750 3100
+	3250 1700 3300 1700
 Wire Wire Line
-	1750 3100 1750 2750
+	3250 1600 3200 1600
+Connection ~ 3250 1600
+Text Label 2250 1950 2    50   ~ 0
+CC1
+Text Label 2250 2050 2    50   ~ 0
+CC2
+$Comp
+L Device:R R19
+U 1 1 610F374F
+P 2450 1950
+F 0 "R19" V 2500 2150 50  0000 C CNN
+F 1 "5.1K" V 2450 1950 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2380 1950 50  0001 C CNN
+F 3 "" H 2450 1950 50  0001 C CNN
+	1    2450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 610F5965
+P 2450 2050
+F 0 "R21" V 2500 2250 50  0000 C CNN
+F 1 "5.1K" V 2450 2050 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2380 2050 50  0001 C CNN
+F 3 "" H 2450 2050 50  0001 C CNN
+	1    2450 2050
+	0    1    1    0   
+$EndComp
+Text Label 2700 2000 0    50   ~ 0
+VSS
 Wire Wire Line
-	1750 2750 1900 2750
+	2700 1950 2600 1950
 Wire Wire Line
-	1500 3200 1800 3200
+	2600 2050 2700 2050
 Wire Wire Line
-	1800 3200 1800 2850
+	2700 1950 2700 2050
 Wire Wire Line
-	1800 2850 1900 2850
+	2300 1950 2250 1950
 Wire Wire Line
-	1650 2550 1650 2500
-Wire Wire Line
-	1650 2500 1500 2500
-Connection ~ 1650 2550
-Wire Wire Line
-	1700 2650 1700 2600
-Wire Wire Line
-	1700 2600 1500 2600
-Connection ~ 1700 2650
-Wire Wire Line
-	1750 2750 1750 2700
-Wire Wire Line
-	1750 2700 1500 2700
-Connection ~ 1750 2750
-Wire Wire Line
-	1800 2850 1800 2800
-Wire Wire Line
-	1800 2800 1500 2800
-Connection ~ 1800 2850
+	2300 2050 2250 2050
 $EndSCHEMATC
