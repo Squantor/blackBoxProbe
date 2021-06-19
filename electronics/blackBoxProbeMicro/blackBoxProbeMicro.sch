@@ -434,22 +434,14 @@ Text Label 1250 5050 2    50   ~ 0
 PROBE_I_TX
 Text Label 1650 5050 0    50   ~ 0
 PROBE_E_TX
-Text Label 1200 4750 2    50   ~ 0
-PROBE_I_TCK
-Text Label 1200 4650 2    50   ~ 0
-PROBE_I_TDI
-Text Label 1700 4750 0    50   ~ 0
+Text Label 1700 4850 0    50   ~ 0
 PROBE_E_TCK
 Text Label 1700 4650 0    50   ~ 0
 PROBE_E_TDI
-Text Label 1200 4850 2    50   ~ 0
-PROBE_I_TDO
-Text Label 1700 4850 0    50   ~ 0
+Text Label 1700 4950 0    50   ~ 0
 PROBE_E_TDO
 Text Label 1650 5150 0    50   ~ 0
 PROBE_E_RX
-Text Label 1200 4950 2    50   ~ 0
-PROBE_I_TMS
 Text Label 900  5350 0    50   ~ 0
 PROBE_TMS_DIR
 $Comp
@@ -1113,7 +1105,7 @@ Text Label 1250 5150 2    50   ~ 0
 PROBE_I_RX
 Wire Wire Line
 	1650 4950 1700 4950
-Text Label 1700 4950 0    50   ~ 0
+Text Label 1700 4750 0    50   ~ 0
 PROBE_E_TMS
 Text Label 3200 800  0    50   ~ 0
 VUSB
@@ -1697,4 +1689,12 @@ Wire Notes Line
 	7250 550  7250 6300
 Wire Notes Line
 	7250 6300 11150 6300
+Text Label 1200 4950 2    50   ~ 0
+PROBE_I_TDO
+Text Label 1200 4850 2    50   ~ 0
+PROBE_I_TCK
+Text Label 1200 4750 2    50   ~ 0
+PROBE_I_TMS
+Text Label 1200 4650 2    50   ~ 0
+PROBE_I_TDI
 $EndSCHEMATC
