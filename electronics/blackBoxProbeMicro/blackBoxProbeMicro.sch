@@ -18,8 +18,8 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 60C8E4B8
 P 950 7500
 F 0 "N2" H 950 7600 60  0000 C CNN
-F 1 "20210615" H 950 7500 60  0000 C CNN
-F 2 "SquantorLabels:Label_version" H 950 7500 60  0001 C CNN
+F 1 "V:20210615" H 950 7500 60  0000 C CNN
+F 2 "SquantorLabels:Label_Generic" H 950 7500 60  0001 C CNN
 F 3 "" H 950 7500 60  0001 C CNN
 	1    950  7500
 	1    0    0    -1  
@@ -211,17 +211,6 @@ F 1 "1u" V 10750 5150 50  0000 L CNN
 F 2 "SquantorRcl:C_0402" H 10738 5150 50  0001 C CNN
 F 3 "" H 10700 5300 50  0001 C CNN
 	1    10700 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5AD53002
-P 10700 5100
-F 0 "C9" V 10750 5150 50  0000 L CNN
-F 1 "10u" V 10750 4900 50  0000 L CNN
-F 2 "SquantorRcl:C_0603" H 10738 4950 50  0001 C CNN
-F 3 "" H 10700 5100 50  0001 C CNN
-	1    10700 5100
 	0    -1   -1   0   
 $EndComp
 Text Label 7650 2300 2    50   ~ 0
@@ -521,10 +510,6 @@ Wire Wire Line
 	10900 5300 10850 5300
 Wire Wire Line
 	10550 5300 10500 5300
-Wire Wire Line
-	10900 5100 10850 5100
-Wire Wire Line
-	10550 5100 10500 5100
 Wire Wire Line
 	10100 5650 10050 5650
 Wire Wire Line
@@ -1008,10 +993,6 @@ Text Label 4000 3950 2    50   ~ 0
 VSS
 Text Label 10900 5300 0    50   ~ 0
 VSSA
-Text Label 10900 5100 0    50   ~ 0
-VSSA
-Text Label 10500 5100 2    50   ~ 0
-VDDA
 Text Label 10500 5300 2    50   ~ 0
 VDDA
 Text Label 10900 5500 0    50   ~ 0
