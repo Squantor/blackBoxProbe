@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 60C8E4B8
 P 950 7500
 F 0 "N2" H 950 7600 60  0000 C CNN
-F 1 "V:20210623" H 950 7500 60  0000 C CNN
+F 1 "V:20210630" H 950 7500 60  0000 C CNN
 F 2 "SquantorLabels:Label_Generic" H 950 7500 60  0001 C CNN
 F 3 "" H 950 7500 60  0001 C CNN
 	1    950  7500
@@ -379,13 +379,13 @@ F 3 "" H 3350 2900 60  0001 C CNN
 	1    3350 2750
 	1    0    0    -1  
 $EndComp
-Text Label 2200 2550 2    50   ~ 0
+Text Label 2800 2550 2    50   ~ 0
 MCU_TMS
-Text Label 2200 2650 2    50   ~ 0
+Text Label 2800 2650 2    50   ~ 0
 MCU_TCK
-Text Label 2200 2850 2    50   ~ 0
+Text Label 2800 2850 2    50   ~ 0
 MCU_TDI
-Text Label 3150 3250 0    50   ~ 0
+Text Label 2800 2950 2    50   ~ 0
 MCU_RST
 $Comp
 L Device:R R18
@@ -423,11 +423,11 @@ Text Label 1250 5050 2    50   ~ 0
 PROBE_I_TX
 Text Label 1650 5050 0    50   ~ 0
 PROBE_E_TX
-Text Label 1700 4850 0    50   ~ 0
+Text Label 1650 4850 0    50   ~ 0
 PROBE_E_TCK
-Text Label 1700 4650 0    50   ~ 0
+Text Label 1650 4650 0    50   ~ 0
 PROBE_E_TDI
-Text Label 1700 4950 0    50   ~ 0
+Text Label 1650 4950 0    50   ~ 0
 PROBE_E_TDO
 Text Label 1650 5150 0    50   ~ 0
 PROBE_E_RX
@@ -630,23 +630,23 @@ Wire Wire Line
 Wire Wire Line
 	1600 5050 1650 5050
 Wire Wire Line
-	1200 4650 1250 4650
+	1250 4650 1300 4650
 Wire Wire Line
-	1200 4750 1250 4750
+	1250 4750 1300 4750
 Wire Wire Line
-	1650 4650 1700 4650
+	1600 4650 1650 4650
 Wire Wire Line
-	1650 4750 1700 4750
+	1600 4750 1650 4750
 Wire Wire Line
-	1200 4850 1250 4850
+	1250 4850 1300 4850
 Wire Wire Line
 	1250 5150 1300 5150
 Wire Wire Line
-	1650 4850 1700 4850
+	1600 4850 1650 4850
 Wire Wire Line
 	1600 5150 1650 5150
 Wire Wire Line
-	1250 4950 1200 4950
+	1300 4950 1250 4950
 Wire Wire Line
 	2150 3650 2200 3650
 Wire Wire Line
@@ -981,13 +981,13 @@ Text Label 7950 4950 2    50   ~ 0
 VSS
 Text Label 8550 5050 0    50   ~ 0
 VSS
-Text Label 1350 2650 2    50   ~ 0
+Text Label 2050 2650 2    50   ~ 0
 VSS
 Text Label 3950 2750 0    50   ~ 0
 VSS
 Text Label 3950 2550 0    50   ~ 0
 VDD
-Text Label 1350 2550 2    50   ~ 0
+Text Label 2050 2550 2    50   ~ 0
 VDD
 Text Label 4000 3950 2    50   ~ 0
 VSS
@@ -1085,8 +1085,8 @@ VDD
 Text Label 1250 5150 2    50   ~ 0
 PROBE_I_RX
 Wire Wire Line
-	1650 4950 1700 4950
-Text Label 1700 4750 0    50   ~ 0
+	1600 4950 1650 4950
+Text Label 1650 4750 0    50   ~ 0
 PROBE_E_TMS
 Text Label 3200 800  0    50   ~ 0
 VUSB
@@ -1155,7 +1155,7 @@ F 3 "~" H 3100 650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 3250 8900 3250
-Text Label 2200 2750 2    50   ~ 0
+Text Label 2800 2750 2    50   ~ 0
 MCU_TDO
 Wire Wire Line
 	4750 3950 4800 3950
@@ -1167,9 +1167,9 @@ Wire Wire Line
 	4750 4550 4800 4550
 Wire Wire Line
 	2950 3750 3000 3750
-Text Label 1350 2750 2    50   ~ 0
+Text Label 2050 2750 2    50   ~ 0
 VDD
-Text Label 1350 2850 2    50   ~ 0
+Text Label 2050 2850 2    50   ~ 0
 VDD
 Wire Wire Line
 	1100 4050 1150 4050
@@ -1186,7 +1186,7 @@ L Device:R R8
 U 1 1 60F36032
 P 1450 5050
 F 0 "R8" V 1500 5200 50  0000 C CNN
-F 1 "330" V 1450 5050 50  0000 C CNN
+F 1 "100" V 1450 5050 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 1380 5050 50  0001 C CNN
 F 3 "" H 1450 5050 50  0001 C CNN
 	1    1450 5050
@@ -1197,7 +1197,7 @@ L Device:R R15
 U 1 1 6110936C
 P 1450 5150
 F 0 "R15" V 1500 5300 50  0000 C CNN
-F 1 "330" V 1450 5150 50  0000 C CNN
+F 1 "100" V 1450 5150 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 1380 5150 50  0001 C CNN
 F 3 "" H 1450 5150 50  0001 C CNN
 	1    1450 5150
@@ -1488,58 +1488,16 @@ Wire Notes Line
 	550  3400 550  4400
 Wire Notes Line
 	550  4400 3600 4400
-$Comp
-L Device:R_Pack04 RN1
-U 1 1 60CB47F6
-P 1650 2750
-F 0 "RN1" V 1400 2550 50  0000 C CNN
-F 1 "47k" V 1800 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1925 2750 50  0001 C CNN
-F 3 "~" H 1650 2750 50  0001 C CNN
-	1    1650 2750
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 60CEE63B
-P 2550 2750
-F 0 "RN2" V 2300 2500 50  0000 C CNN
-F 1 "33" V 2700 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 2825 2750 50  0001 C CNN
-F 3 "~" H 2550 2750 50  0001 C CNN
-	1    2550 2750
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
-	1450 2850 1350 2850
+	2100 2850 2050 2850
 Wire Wire Line
-	1450 2750 1350 2750
+	2100 2750 2050 2750
 Wire Wire Line
-	1450 2650 1350 2650
+	2100 2650 2050 2650
 Wire Wire Line
-	1450 2550 1350 2550
+	2100 2550 2050 2550
 Wire Wire Line
 	2850 2950 2800 2950
-Wire Wire Line
-	2800 2950 2800 3250
-Wire Wire Line
-	2800 3250 3150 3250
-Wire Wire Line
-	2850 2550 2750 2550
-Wire Wire Line
-	2750 2650 2850 2650
-Wire Wire Line
-	2850 2750 2750 2750
-Wire Wire Line
-	2750 2850 2850 2850
-Wire Wire Line
-	1850 2550 2350 2550
-Wire Wire Line
-	1850 2650 2350 2650
-Wire Wire Line
-	1850 2750 2350 2750
-Wire Wire Line
-	1850 2850 2350 2850
 Text Label 4800 3950 0    50   ~ 0
 VDD
 Wire Wire Line
@@ -1589,17 +1547,6 @@ Wire Wire Line
 	2000 2000 1950 2000
 Wire Wire Line
 	2000 2100 1950 2100
-$Comp
-L Device:R_Pack04 RN3
-U 1 1 60CD1A36
-P 1450 4850
-F 0 "RN3" V 1200 4650 50  0000 C CNN
-F 1 "330" V 1600 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 1725 4850 50  0001 C CNN
-F 3 "~" H 1450 4850 50  0001 C CNN
-	1    1450 4850
-	0    -1   1    0   
-$EndComp
 Wire Notes Line
 	550  4500 2300 4500
 Wire Notes Line
@@ -1670,13 +1617,13 @@ Wire Notes Line
 	7250 550  7250 6300
 Wire Notes Line
 	7250 6300 11150 6300
-Text Label 1200 4950 2    50   ~ 0
+Text Label 1250 4950 2    50   ~ 0
 PROBE_I_TDO
-Text Label 1200 4850 2    50   ~ 0
+Text Label 1250 4850 2    50   ~ 0
 PROBE_I_TCK
-Text Label 1200 4750 2    50   ~ 0
+Text Label 1250 4750 2    50   ~ 0
 PROBE_I_TMS
-Text Label 1200 4650 2    50   ~ 0
+Text Label 1250 4650 2    50   ~ 0
 PROBE_I_TDI
 $Comp
 L Device:C C3
@@ -1697,4 +1644,100 @@ Wire Wire Line
 	2550 1900 2600 1900
 Wire Wire Line
 	2900 1900 2950 1900
+$Comp
+L Device:R R17
+U 1 1 60DE7C31
+P 1450 4950
+F 0 "R17" V 1500 5100 50  0000 C CNN
+F 1 "100" V 1450 4950 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1380 4950 50  0001 C CNN
+F 3 "" H 1450 4950 50  0001 C CNN
+	1    1450 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 60DE81F3
+P 1450 4850
+F 0 "R14" V 1500 5000 50  0000 C CNN
+F 1 "100" V 1450 4850 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1380 4850 50  0001 C CNN
+F 3 "" H 1450 4850 50  0001 C CNN
+	1    1450 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 60DE8722
+P 1450 4750
+F 0 "R13" V 1500 4900 50  0000 C CNN
+F 1 "100" V 1450 4750 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1380 4750 50  0001 C CNN
+F 3 "" H 1450 4750 50  0001 C CNN
+	1    1450 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 60DE8BCC
+P 1450 4650
+F 0 "R9" V 1500 4800 50  0000 C CNN
+F 1 "100" V 1450 4650 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 1380 4650 50  0001 C CNN
+F 3 "" H 1450 4650 50  0001 C CNN
+	1    1450 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2550 2850 2550
+Wire Wire Line
+	2400 2650 2850 2650
+Wire Wire Line
+	2400 2750 2850 2750
+Wire Wire Line
+	2400 2850 2850 2850
+$Comp
+L Device:R R25
+U 1 1 60ED0493
+P 2250 2850
+F 0 "R25" V 2300 3000 50  0000 C CNN
+F 1 "47K" V 2250 2850 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2180 2850 50  0001 C CNN
+F 3 "" H 2250 2850 50  0001 C CNN
+	1    2250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 60ED1796
+P 2250 2750
+F 0 "R24" V 2300 2900 50  0000 C CNN
+F 1 "47K" V 2250 2750 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2180 2750 50  0001 C CNN
+F 3 "" H 2250 2750 50  0001 C CNN
+	1    2250 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 60ED1BB4
+P 2250 2650
+F 0 "R23" V 2300 2800 50  0000 C CNN
+F 1 "47K" V 2250 2650 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2180 2650 50  0001 C CNN
+F 3 "" H 2250 2650 50  0001 C CNN
+	1    2250 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 60ED1FE1
+P 2250 2550
+F 0 "R22" V 2300 2700 50  0000 C CNN
+F 1 "47K" V 2250 2550 50  0000 C CNN
+F 2 "SquantorRcl:R_0402_hand" V 2180 2550 50  0001 C CNN
+F 3 "" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
