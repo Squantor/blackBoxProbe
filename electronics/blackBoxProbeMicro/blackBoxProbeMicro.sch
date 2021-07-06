@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L SquantorLabels:VYYYYMMDD N2
 U 1 1 60C8E4B8
-P 950 7500
-F 0 "N2" H 950 7600 60  0000 C CNN
-F 1 "V:20210704" H 950 7500 60  0000 C CNN
-F 2 "SquantorLabels:Label_Generic" H 950 7500 60  0001 C CNN
-F 3 "" H 950 7500 60  0001 C CNN
-	1    950  7500
+P 950 7150
+F 0 "N2" H 950 7250 60  0000 C CNN
+F 1 "V:20210706" H 950 7150 60  0000 C CNN
+F 2 "SquantorLabels:Label_Generic" H 950 7150 60  0001 C CNN
+F 3 "" H 950 7150 60  0001 C CNN
+	1    950  7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L SquantorLabels:OHWLOGO N1
 U 1 1 60C8E4B9
-P 950 7100
-F 0 "N1" H 950 7250 60  0000 C CNN
-F 1 "OHWLOGO" H 950 6950 60  0000 C CNN
-F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 950 7100 60  0001 C CNN
-F 3 "" H 950 7100 60  0001 C CNN
-	1    950  7100
+P 950 6750
+F 0 "N1" H 950 6900 60  0000 C CNN
+F 1 "OHWLOGO" H 950 6600 60  0000 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 950 6750 60  0001 C CNN
+F 3 "" H 950 6750 60  0001 C CNN
+	1    950  6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -70,11 +70,11 @@ Wire Notes Line
 Wire Notes Line
 	1600 7550 1600 7700
 Wire Notes Line
-	550  7700 550  6800
+	550  7700 550  6500
 Wire Notes Line
-	550  6800 2600 6800
+	550  6500 2600 6500
 Wire Notes Line
-	2600 6800 2600 7700
+	2600 6500 2600 7700
 Wire Notes Line
 	550  7700 2600 7700
 $Comp
@@ -1739,5 +1739,16 @@ F 2 "SquantorRcl:R_0402_hand" V 2180 2550 50  0001 C CNN
 F 3 "" H 2250 2550 50  0001 C CNN
 	1    2250 2550
 	0    1    1    0   
+$EndComp
+$Comp
+L SquantorLabels:VYYYYMMDD N3
+U 1 1 60EB465F
+P 950 7450
+F 0 "N3" H 950 7550 60  0000 C CNN
+F 1 "JLCJLCJLC" H 950 7450 60  0000 C CNN
+F 2 "SquantorLabels:Label_Generic" H 950 7450 60  0001 C CNN
+F 3 "" H 950 7450 60  0001 C CNN
+	1    950  7450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
