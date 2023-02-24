@@ -5,10 +5,10 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 *~
 _autosave-*
 *.tmp
-*.sch-bak
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -21,12 +21,20 @@ _autosave-*
 *.xml
 *.csv
 
-# gerber stuff
-*.zip
+# additional directories
+rescue-backup/
 
-# misc caches
+#various caches
 fp-info-cache
 *-cache.lib
 
-#temporary cad files
-*.FCStd?
+# kicad 6 temporaries and local settings
+*-backups/
+*.kicad_prl
+
+# kicad outputs
+plots/
+plots-*/
+*_plots_*/
+*_plots/
+*.zip
