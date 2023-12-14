@@ -1,14 +1,10 @@
-# Temporary files
-*.000
-*.bak
-*.bck
+#kicad temporaries
 *.kicad_pcb-bak
 *.sch-bak
-*~
-_autosave-*
+*.net
 *.tmp
-*-save.pro
-*-save.kicad_pcb
+*.bak
+_autosave*
 fp-info-cache
 *-cache.lib
 
@@ -17,12 +13,9 @@ fp-info-cache
 *.kicad_prl
 \#auto_saved_files\#
 
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Kicad 7.0 temporaries
-*.lck
+# kicad outputs
+plots/
+plots-*/
+*_plots_*/
+*_plots/
+*.zip
