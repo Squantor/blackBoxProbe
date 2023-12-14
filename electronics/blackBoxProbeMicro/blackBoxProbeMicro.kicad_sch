@@ -4493,7 +4493,7 @@
     (property "Value" "MCP1702-MB" (at 76.2 133.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SquantorIC:SOT89-NXP-Viatab" (at 76.2 127 0)
+    (property "Footprint" "SquantorIC:SOT89-NXP" (at 76.2 127 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 76.2 127 0)
@@ -4501,7 +4501,7 @@
     )
     (pin "1" (uuid af26b8b3-9772-4414-9726-829118e31d1d))
     (pin "2" (uuid 2c3d830b-2090-4125-b5d8-91e05c113d72))
-    (pin "2" (uuid 2c3d830b-2090-4125-b5d8-91e05c113d72))
+    (pin "2" (uuid 2c3d830b-2090-4125-b5d8-91e05c113d73))
     (pin "3" (uuid 6c445520-8773-4d63-99ac-6bca49004867))
     (instances
       (project "blackBoxProbeMicro"
@@ -5716,7 +5716,7 @@
     (property "Reference" "N2" (at 24.13 179.07 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "V:20230929" (at 24.13 181.61 0)
+    (property "Value" "V:20231214" (at 24.13 181.61 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 24.13 181.61 0)
