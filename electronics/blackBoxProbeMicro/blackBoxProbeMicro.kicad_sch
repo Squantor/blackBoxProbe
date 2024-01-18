@@ -4478,7 +4478,7 @@
     (property "Reference" "C2" (at 38.1 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100N" (at 38.1 53.34 90)
+    (property "Value" "100n" (at 38.1 53.34 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "SquantorCapacitor:C_0603" (at 33.02 53.0352 0)
