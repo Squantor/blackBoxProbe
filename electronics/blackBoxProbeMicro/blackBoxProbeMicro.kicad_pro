@@ -56,7 +56,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|161996387|115560000|00000000-0000-0000-0000-00005c817399|f819ae8e-95ee-4990-b17e-deb30dc5c3d5",
+        "silk_edge_clearance|162000000|105440000|751bda29-477a-4a3e-a278-2ac9100c298f|b029d61e-4d0b-4550-9bf1-f672880a90cb",
+        "silk_edge_clearance|162000000|106200000|751bda29-477a-4a3e-a278-2ac9100c298f|bcc3cc61-b571-4a95-913d-3ab21779f934",
+        "silk_edge_clearance|162000000|107200000|751bda29-477a-4a3e-a278-2ac9100c298f|3fbb053a-f4a3-46d4-b959-17bd0569d016",
+        "silk_edge_clearance|162000000|107200000|751bda29-477a-4a3e-a278-2ac9100c298f|433827b5-5af9-4541-bf44-68a11cfbb81e",
+        "silk_edge_clearance|162000000|108000000|751bda29-477a-4a3e-a278-2ac9100c298f|32101eaa-095b-4c67-8ecc-8f5208cf8cef",
+        "silk_edge_clearance|162000000|113000000|751bda29-477a-4a3e-a278-2ac9100c298f|73699b44-9eae-49a3-9571-a4031d75ddc9",
+        "silk_edge_clearance|162000000|113800000|751bda29-477a-4a3e-a278-2ac9100c298f|09f62ab2-87b5-424b-a54c-cb7a18cab140",
+        "silk_edge_clearance|162000000|113800000|751bda29-477a-4a3e-a278-2ac9100c298f|e26e4f09-7465-435f-a3b5-1dc6510c61e4",
+        "silk_edge_clearance|162000000|114800000|751bda29-477a-4a3e-a278-2ac9100c298f|d16470fe-ccc9-433b-bd62-47d36a69e440"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -258,7 +269,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|838200|1244600|6c445520-8773-4d63-99ac-6bca49004867|27a59387-c247-4b25-9481-d9c8e705893c|/40f15b6a-8b98-4774-8d8e-1b991685cf13|/40f15b6a-8b98-4774-8d8e-1b991685cf13|/40f15b6a-8b98-4774-8d8e-1b991685cf13",
+      "pin_to_pin|838200|1244600|6c445520-8773-4d63-99ac-6bca49004867|98f5b65e-0737-4aff-8c9b-f7b26e8a802f|/40f15b6a-8b98-4774-8d8e-1b991685cf13|/40f15b6a-8b98-4774-8d8e-1b991685cf13|/40f15b6a-8b98-4774-8d8e-1b991685cf13",
+      "pin_to_pin|838200|1244600|6c445520-8773-4d63-99ac-6bca49004867|a104d7b9-9a99-4e39-847d-bffb63eb437c|/40f15b6a-8b98-4774-8d8e-1b991685cf13|/40f15b6a-8b98-4774-8d8e-1b991685cf13|/40f15b6a-8b98-4774-8d8e-1b991685cf13"
+    ],
     "meta": {
       "version": 0
     },
