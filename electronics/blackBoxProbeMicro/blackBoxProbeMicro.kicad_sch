@@ -5725,7 +5725,7 @@
     (property "Reference" "N2" (at 24.13 179.07 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "V:20240202" (at 24.13 181.61 0)
+    (property "Value" "V:20240216" (at 24.13 181.61 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "SquantorLabels:Label_Generic" (at 24.13 181.61 0)
